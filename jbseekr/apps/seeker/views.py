@@ -1,57 +1,55 @@
-# from django.shortcuts import render
+import datetime
+import logging
 
-# Create your views here.
-from models import Position, Company
+from django.conf import settings
+from django.db.models import Q
+from django.http import Http404
+from rest_framework import viewsets, status
+from rest_framework.response import Response
+from django.core.cache import cache
+from drf_yasg.utils import swagger_auto_schema
+from . import tasks
+
+from . import serializers
 
 
-crawler = InfojobsCrawler(source="Infojobs")
-	crawler.execute()
-	time.sleep(2)
-	kwargs = {
-		"role": "Python",
-		"location": "Madrid",
-	}
-	crawler.search_jobs(role="python", location="madrid")
-	final_positions = crawler.wrap_positions()
-	wrapped_details = crawler.retrieve_details()
-	crawled_positions = crawler.retrieve_position_details()
-	crawled_positions = crawled_positions[0
-	]
-	if not Position.objects.filter(
-			url=crawled_positions.get("url"),
-			description=crawled_positions.get("description"),
-			minimum_salary=crawled_positions.get("minimum_salary"),
-			maximum_salary=crawled_positions.get("maximum_salary")).exists():
+class BaseViewSet(viewsets.ViewSet):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self._logger = logging.getLogger('msd')
 
-		new_position = Position.objects.create(
-			url=crawled_positions.get("url"),
-			role=crawled_positions.get("role"),
-			posted_date=crawled_positions.get("posted_date"),
-			maximum_salary=crawled_positions.get("maximum_salary"),
-			minimum_salary=crawled_positions.get("minimum_salary"),
-			city=crawled_positions.get("city"),
-			location=crawled_positions.get("location"),
-			description=crawled_positions.get("description"),
-			address=crawled_positions.get("address"),
-			modified_date=crawled_positions.get("modified_date"),
-			top_skills=crawled_positions.get("top_skills"),
-			source=crawled_positions.get("source"),
-			company=crawled_positions.get("company"),
-			keywords=kwargs,
-			closed=crawled_positions.get("closed"),
-			experience=crawled_positions.get("experience"),
-			level=crawled_positions.get("level"),
-			staff_in_charge=crawled_positions.get("staff_in_charge"),
-			contract_type=crawled_positions.get("contract_type")
-		)
+    @property
+    def logger(self):
+        """Return logger"""
+        return self._logger
 
-		company, _ = Company.objects.get_or_create(
-			name=crawled_positions.get("company_name"),
-			description=crawled_positions.get("company_description"),
-			url=crawled_positions.get("company_url"),
-			workers=crawled_positions.get("workers"),
-		)
-		new_position.company = company
-		new_position.save()
+    @logger.setter
+    def logger(self, value):
+        """Set logger"""
+        self._logger = value
 
-		#Opinion.objects.get_or_create()
+
+class PositionGeneratorViewSet(BaseViewSet):
+
+    """
+    Viewset that retrieves job offers for all sources.
+    """
+
+    authentication_classes = []
+    permission_classes = ()
+    serializer_class = serializers.PositionQuerySerializer
+
+    @swagger_auto_schema(request_body=serializer_class, security=[])
+    def create(self, request):
+
+        serializer = self.serializer_class(data=request.data)
+        if not serializer.is_valid():
+            self.logger.error(f"Validation error: {serializer.errors}")
+            return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+        tasks.generate_offers.apply_async(kwargs=serializer.validated_data, countdown=0)
+        return Response(status=status.HTTP_201_CREATED)
+
+
+class PositionViewSet(viewsets.ModelViewSet):
+    pass

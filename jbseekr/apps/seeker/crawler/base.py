@@ -1,4 +1,4 @@
-from driver import Driver
+from .driver import Driver
 
 class BaseCrawler(Driver):
 

@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 import time
 
 from django.conf import settings
-from fake_useragent import UserAgent
+#from fake_useragent import UserAgent
 
 
 class Driver:

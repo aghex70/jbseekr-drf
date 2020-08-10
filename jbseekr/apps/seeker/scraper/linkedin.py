@@ -1,9 +1,9 @@
 from urllib.parse import urlencode
 
-from app.scraper.base import BS4Scraper
+from .base import BS4Scraper
 import re
 
-from app.models import Position
+from ..models import Position
 
 class LinkedinScraper(BS4Scraper):
 

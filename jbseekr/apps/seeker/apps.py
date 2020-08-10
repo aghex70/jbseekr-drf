@@ -1,5 +1,11 @@
 from django.apps import AppConfig
 
 
-class RetrieverConfig(AppConfig):
-    name = 'retriever'
+class SeekerConfig(AppConfig):
+    name = 'jbseekr.apps.seeker'
+
+    def ready(self):
+        super(SeekerConfig, self).ready()
+
+        # noinspection PyUnresolvedReferences
+        from . import receivers

@@ -6,7 +6,7 @@ from selenium.common.exceptions import InvalidSessionIdException
 
 from datetime import datetime
 
-from base import BaseCrawler
+from .base import BaseCrawler
 
 
 class InfojobsCrawler(BaseCrawler):
@@ -34,7 +34,8 @@ class InfojobsCrawler(BaseCrawler):
 		self.fill_location(self.location)
 		self.set_update_desc_order()
 		self.submit_search()
-		time.sleep(2)
+		#time.sleep(2)
+		self.implicitly_wait(0.2)
 		self.retrieve_positions()
 		self.close()
 
@@ -69,7 +70,8 @@ class InfojobsCrawler(BaseCrawler):
 				if 'page' in inputbox_text else "2"
 			api_inputbox.send_keys(f"{inputbox_text.split('&page')[0]}&page={current_page}")
 			self.submit_search()
-			time.sleep(2)
+			#time.sleep(2)
+			self.implicitly_wait(2)
 			response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
 			self.positions = [*response.get("items"), *self.positions]
 
@@ -128,7 +130,8 @@ class InfojobsCrawler(BaseCrawler):
 				api_inputbox.clear()
 				api_inputbox.send_keys(f"https://api.infojobs.net/api/7/offer/{position_id}")
 				self.submit_search()
-				time.sleep(0.5)
+				#time.sleep(0.5)
+				self.implicitly_wait(0.5)
 				response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
 				position_details = {
 					"company_url": response.get("profile").get("url"),
