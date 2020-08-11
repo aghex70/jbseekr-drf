@@ -31,7 +31,7 @@ admin.site.index_title = 'Gestión de ofertas laborales'
 swagger_info = openapi.Info(
     title=TITLE,
     default_version='v1',
-    description="Jobseekr API",
+    description="Jobseeker API",
     terms_of_service="",
     contact=openapi.Contact(email="aghex70@gmail.com"),
     license=openapi.License(name=""),
