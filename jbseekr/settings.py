@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-#from celery.schedules import crontab
+import sys
+from urllib.parse import urlparse
+from celery.schedules import crontab
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -142,3 +144,46 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+TEST = 'test' in sys.argv
+
+SECRET_KEY = os.environ['SECRET_KEY'] if TEST else 'fake_secret_key'
+REDIS_LOCATION = os.environ['REDIS_LOCATION'] if TEST else ''
+CELERY_BROKER_URL = os.environ['REDIS_LOCATION'] if TEST else ''
+
+
+# Database
+if TEST:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': os.environ['POSTGRES_USER'],
+            'USER': os.environ['POSTGRES_USER'],
+            'PASSWORD': os.environ['POSTGRES_PASSWORD'],
+            'HOST': 'db',
+            'PORT': '5432',
+        }
+    }
+
+
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = TIME_ZONE
+CELERY_BROKER_URL = 'redis://redis:6379'
+CELERY_RESULT_BACKEND = 'redis://redis:6379'
+celery_url_parse = urlparse(CELERY_BROKER_URL)
+if celery_url_parse.scheme == 'rediss':
+    CELERY_BROKER_USE_SSL={
+        'ssl_cert_reqs': None
+    }
+    CELERY_BROKER_URL = CELERY_BROKER_URL.replace('rediss', 'redis')
