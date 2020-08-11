@@ -1,14 +1,16 @@
 version: '3'
 
 services:
+
   db:
     image: postgres
-    environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+    env_file:
+      - .env.jbseekr
+
   web:
     build: .
+    env_file:
+      - .env.jbseekr
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
@@ -16,3 +18,31 @@ services:
       - "8000:8000"
     depends_on:
       - db
+      - redis
+
+  redis:
+    image: redis:alpine
+
+  celery:
+    build: .
+    env_file:
+      - .env.jbseekr
+    command: >
+      bash -c "celery worker -A jbseekr.celery -n jbseekr@ -Q seeker -l info --heartbeat-interval 10"
+    volumes:
+      - .:/usr/src/app/
+    depends_on:
+      - db
+      - redis
+
+  celery-beat:
+    build: .
+    env_file:
+      - .env.jbseekr
+    command: >
+      bash -c "celery beat -A jbseekr.celery -l info"
+    volumes:
+      - .:/usr/src/app/
+    depends_on:
+      - db
+      - redis
