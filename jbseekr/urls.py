@@ -23,17 +23,17 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
-TITLE = "Mapfre API-SAM-{} API".format(os.getenv('PROJECT', 'MDH'))
+TITLE = "Jobseekr API"
 
-admin.site.site_header = 'Servicio de Autorizaciones Médicas'
-admin.site.index_title = 'Gestión de tareas periódicas'
+admin.site.site_header = 'Servicio de ofertas laborales'
+admin.site.index_title = 'Gestión de ofertas laborales'
 
 swagger_info = openapi.Info(
     title=TITLE,
     default_version='v1',
-    description="Mapfre API",
+    description="Jobseekr API",
     terms_of_service="",
-    contact=openapi.Contact(email="support@i2tic.com"),
+    contact=openapi.Contact(email="aghex70@gmail.com"),
     license=openapi.License(name=""),
 )
 
