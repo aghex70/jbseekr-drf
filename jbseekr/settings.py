@@ -18,7 +18,6 @@ from celery.schedules import crontab
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
@@ -148,10 +147,10 @@ STATIC_URL = '/static/'
 
 TEST = 'test' in sys.argv
 
-SECRET_KEY = os.environ['SECRET_KEY'] if TEST else 'fake_secret_key'
-REDIS_LOCATION = os.environ['REDIS_LOCATION'] if TEST else ''
-CELERY_BROKER_URL = os.environ['REDIS_LOCATION'] if TEST else ''
-
+SECRET_KEY = '' if TEST else os.environ['SECRET_KEY']
+REDIS_LOCATION = '' if TEST else os.environ['REDIS_LOCATION']
+CELERY_BROKER_URL = '' if TEST else os.environ['REDIS_LOCATION']
+CHROMEDRIVER_PATH = os.path.join(BASE_DIR, os.environ['CHROMEDRIVER_RELATIVE_PATH'])
 
 # Database
 if TEST:
