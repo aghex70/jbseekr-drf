@@ -1,4 +1,3 @@
-import time
 import json
 from json import JSONDecodeError
 
@@ -11,14 +10,15 @@ from .base import BaseCrawler
 
 class InfojobsCrawler(BaseCrawler):
 
-	def __init__(self, source):
-		self.origin = "https://developer.infojobs.net/test-console/console.xhtml?operationEntityField=-offer&methodfield=GET&versionfield=1&hmethodfield=LIST"
+	def __init__(self):
+		self.origin = "https://developer.infojobs.net/test-console/console.xhtml?operationEntityField=-offer" + \
+					  "&methodfield=GET&versionfield=1&hmethodfield=LIST"
 		self.url = None
 		self.role = None
 		self.positions = []
 		self.wrapped_positions = []
-		self.descriptions = []
-		super().__init__(source=source)
+		self.detailed_positions = []
+		super().__init__(source="Infojobs")
 
 	def execute(self):
 		self.open()
@@ -26,16 +26,15 @@ class InfojobsCrawler(BaseCrawler):
 		home_title = "InfoJobs Developer Site - Test Console"
 		self.wait_until_title_contains_keyword(home_title)
 
-	def search_jobs(self, role, location):
-		self.role = role.capitalize()
-		self.location = location.capitalize()
+	def search_jobs(self, **kwargs):
+		self.role = kwargs.get("role", "Python").capitalize()
+		self.location = kwargs.get("location", "Madrid").capitalize()
 
 		self.fill_role(self.role)
 		self.fill_location(self.location)
 		self.set_update_desc_order()
 		self.submit_search()
-		#time.sleep(2)
-		self.implicitly_wait(0.2)
+		self.wait_implicit_time(2)
 		self.retrieve_positions()
 		self.close()
 
@@ -57,7 +56,7 @@ class InfojobsCrawler(BaseCrawler):
 
 	def retrieve_positions(self):
 		response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
-		self.positions = [*response.get("items"), *self.positions]
+		self.positions = response.get("items")
 		self.retrieve_paginated_positions()
 
 	def retrieve_paginated_positions(self):
@@ -70,10 +69,12 @@ class InfojobsCrawler(BaseCrawler):
 				if 'page' in inputbox_text else "2"
 			api_inputbox.send_keys(f"{inputbox_text.split('&page')[0]}&page={current_page}")
 			self.submit_search()
-			#time.sleep(2)
-			self.implicitly_wait(2)
+			self.wait_implicit_time(2)
 			response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
 			self.positions = [*response.get("items"), *self.positions]
+
+		for position in self.positions:
+			position['company_description'] = position.pop('description', None)
 
 	def wrap_positions(self):
 		for position in self.positions:
@@ -96,7 +97,7 @@ class InfojobsCrawler(BaseCrawler):
 				"minimum_salary": position.get("salaryMin", {}).get("value"),
 				"maximum_salary": position.get("salaryMax", {}).get("value"),
 				"experience": position.get("experienceMin").get("value"),
-				"contract_type": position.get("experienceMin").get("value"),
+				"contract_type": position.get("contract_type"),
 			}
 			self.wrapped_positions.append(wrapped_position)
 
@@ -121,22 +122,20 @@ class InfojobsCrawler(BaseCrawler):
 		return self.wrapped_positions
 
 	def retrieve_position_details(self):
-		updated_positions= []
 		i = 0
-		while i < len(self.wrapped_positions):
+		while i < len(self.positions):
 			try:
-				position_id = self.wrapped_positions[i].get("id")
+				position_id = self.positions[i].get("id")
 				api_inputbox = self.get_by_id(id="apiuri")
 				api_inputbox.clear()
 				api_inputbox.send_keys(f"https://api.infojobs.net/api/7/offer/{position_id}")
 				self.submit_search()
-				#time.sleep(0.5)
-				self.implicitly_wait(0.5)
+				self.wait_implicit_time(0.5)
 				response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
 				position_details = {
 					"company_url": response.get("profile").get("url"),
-					"description": response.get("profile").get("description"),
-					"company_description": response.get("company_description"),
+					"description": response.get("description"),
+					"company_description": response.get("profile").get("description"),
 					"workers": response.get("profile").get("numberWorkers"),
 					"address": response.get("fiscalAddress"),
 					"top_skills":
@@ -145,8 +144,8 @@ class InfojobsCrawler(BaseCrawler):
 					"staff_in_charge": response.get("staffInCharge", {}).get("value"),
 					"contract_type": response.get("contractType", {}).get("value"),
 				}
-				updated_pos = {**self.wrapped_positions[i], **position_details}
-				updated_positions.append(updated_pos)
+				updated_position = {**self.positions[i], **position_details}
+				self.detailed_positions.append(updated_position)
 
 			except JSONDecodeError:
 				cleansed_line = self.cleanse_fields(self.get_by_id(id="formattedBody").text)
@@ -161,14 +160,15 @@ class InfojobsCrawler(BaseCrawler):
 					"staff_in_charge": cleansed_line.get("staff_in_charge"),
 					"contract_type": cleansed_line.get("contract_type"),
 				}
-				updated_pos = {**self.wrapped_positions[i], **position_details}
-				updated_positions.append(updated_pos)
+				updated_position = {**self.positions[i], **position_details}
+				self.detailed_positions.append(updated_position)
 
 			except InvalidSessionIdException:
 				self.reset_session()
 				continue
 			i += 1
-		return updated_positions
+		self.positions = self.detailed_positions
+		return self.positions
 
 	# TODO chhange default params calls
 	def cleanse_fields(self, line):
