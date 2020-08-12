@@ -8,5 +8,5 @@ class PositionSerializer(serializers.ModelSerializer):
         #fields = ('pk', 'name', 'email', 'document', 'phone', 'registrationDate')
 
 class PositionQuerySerializer(serializers.Serializer):
-    role = serializers.CharField(required=False)
-    location = serializers.CharField(required=False)
+    role = serializers.CharField(default="Python", required=False)
+    location = serializers.CharField(default="Madrid", required=False)
