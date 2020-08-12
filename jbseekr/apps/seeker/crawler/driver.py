@@ -13,10 +13,8 @@ from django.conf import settings
 
 class Driver:
 	def __init__(self, path=None):
-		# print(f"settings.CHROMEDRIVER_PATH {settings.CHROMEDRIVER_PATH}")
 		self.driver = None
-		#self.path = path if path else settings.CHROMEDRIVER_PATH
-		self.path = "/home/i2agperez/python_projects/wisdom/chromedriver_linux64/chromedriver"
+		self.path = path if path else settings.CHROMEDRIVER_PATH
 		self.scroll_start_height = 0
 		self.client_height = None
 
@@ -29,11 +27,9 @@ class Driver:
 		time.sleep(1)
 
 		if no_sandbox:
-			pass
 			chrome_options.add_argument('--no-sandbox')
 
 		if headless:
-			pass
 			chrome_options.add_argument('--headless')
 
 		"""
@@ -150,3 +146,6 @@ class Driver:
 
 	def close(self):
 		self.driver.close()
+
+	def wait_implicit_time(self, seconds):
+		self.driver.implicitly_wait(seconds)
