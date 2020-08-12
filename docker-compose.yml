@@ -11,7 +11,10 @@ services:
     build: .
     env_file:
       - .env.jbseekr
-    command: python manage.py runserver 0.0.0.0:8000
+    command: bash -c "python scripts/check_service.py --service-name db --ip db --port 5432 &&
+      python manage.py makemigrations &&
+      python manage.py migrate &&
+      python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code
     ports:
@@ -46,3 +49,14 @@ services:
     depends_on:
       - db
       - redis
+
+  flower:
+    build: .
+    image: flower:latest
+    env_file:
+      - .env.jbseekr
+    command: ["flower", "--broker=redis://redis:6379/0", "--port=5555"]
+    depends_on:
+      - redis
+    ports:
+      - "5555:5555"
