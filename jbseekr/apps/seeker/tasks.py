@@ -1,17 +1,14 @@
 from __future__ import absolute_import, unicode_literals
-
 import logging
+import time
+from datetime import datetime
 
 from celery import chord, group, chain, shared_task
 from celery import exceptions as celery_exceptions
-from ...celery import app
 
-from django.db.models.signals import post_save
 from .models import Position, Company
 from .crawler import infojobs
 from .scraper import linkedin
-import time
-
 
 logger = logging.getLogger('msd')
 
@@ -98,6 +95,39 @@ def generate_infojobs_offers(self, **kwargs):
 #@app.task(bind=True, max_retries=3, default_retry_delay=20, queue='seeker')
 def generate_linkedin_offers(self, **kwargs):
 	print("SEEKER 2")
+	scraper = linkedin.LinkedinScraper()
+	scraper.filter_positions(**kwargs)
+	positions_urls = scraper.retrieve_positions_urls()
+
+	for url in positions_urls:
+		position = scraper.retrieve_position(position_url=url)
+		details = scraper.retrieve_position_details()
+
+		if not Position.objects.filter(link=url).exists():
+			new_position = Position.objects.create(
+				link=url,
+				role=details.get("title"),
+				posted_date=details.get("datePosted"),
+				description=details.get("description"),
+				source=scraper.source,
+				company=details.get("hiringOrganization").get("name"),
+				keywords=kwargs,
+				closed=True
+				if datetime.strptime(details.get("validThrough"), "%Y-%m-%dT%H:%M:%S.000Z") <= datetime.now()
+				else False,
+				experience=details.get("experienceRequirements"),
+				contract_type=details.get("employmentType")
+			)
+
+			company, _ = Company.objects.get_or_create(
+				name=position.get("company_name"),
+				description=position.get("company_description"),
+				web=position.get("company_url"),
+				workers=position.get("workers"),
+			)
+			new_position.company = company
+			new_position.save()
+
 	return {
 		'hola2': kwargs
 	}
