@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'jbseekr.apps.seeker',
     'celery',
+    'django_celery_results',
     #'storages',
 ]
 
