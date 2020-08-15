@@ -1,6 +1,7 @@
 from __future__ import absolute_import, unicode_literals
 import logging
 import time
+import re
 from datetime import datetime
 
 from celery import chord, group, chain, shared_task
@@ -8,7 +9,7 @@ from celery import exceptions as celery_exceptions
 
 from .models import Position, Company
 from .crawler import infojobs
-from .scraper import linkedin
+from .scraper import linkedin, frg
 
 logger = logging.getLogger('msd')
 
@@ -18,13 +19,17 @@ logger = logging.getLogger('msd')
 def generate_offers(self, **kwargs):
 	if not kwargs:
 		kwargs = {
-		"role": "Python",
-		"location": "Madrid",
-	}
+			"role": "Python",
+			"location": "Madrid",
+		}
 	print(f"seeker TASK")
 
 	try:
-		tasks_group = group(generate_infojobs_offers.s(**kwargs), generate_linkedin_offers.s(**kwargs))
+		tasks_group = group(
+			generate_infojobs_offers.s(**kwargs),
+			generate_linkedin_offers.s(**kwargs),
+			generate_frg_offers.s(**kwargs)
+		)
 		chord(tasks_group)(ekekekek.s(kwargs))
 
 	except (celery_exceptions.ChordError, Exception) as exc:
@@ -127,6 +132,41 @@ def generate_linkedin_offers(self, **kwargs):
 			)
 			new_position.company = company
 			new_position.save()
+
+	return {
+		'hola2': kwargs
+	}
+
+
+@shared_task(bind=True, max_retries=3, default_retry_delay=20, queue='seeker')
+#@app.task(bind=True, max_retries=3, default_retry_delay=20, queue='seeker')
+def generate_frg_offers(self, **kwargs):
+	print("SEEKER 3")
+	scraper = frg.FRGScraper()
+	scraper.filter_positions(**kwargs)
+	scraper.retrieve_positions()
+	scraper.filter_positions_details()
+	positions = scraper.fill_position_details()
+
+	for position in positions:
+
+		if not Position.objects.filter(link=position.get("url")).exists():
+			scraped_date = position.get("posted_date")
+			posted_date = datetime.strptime(re.sub(r'\D', '', scraped_date), "%d %b, %Y")
+			# TODO PENDING REVISION
+			posted_date = datetime.strftime(posted_date, "%Y-%m-%d %H:%M:%S")
+			Position.objects.create(
+				link=position.get("url"),
+				location=position.get("url"),
+				role=position.get("role"),
+				posted_date=posted_date,
+				description=position.get("description"),
+				source=position.get("source"),
+				keywords={
+					"role": "Python",
+					"location": "Madrid",
+				}
+			)
 
 	return {
 		'hola2': kwargs
