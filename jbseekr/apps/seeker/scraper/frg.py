@@ -12,7 +12,7 @@ ORIGIN_BY_ROLE = {
 }
 
 
-class FrgScraper(BS4Scraper):
+class FRGScraper(BS4Scraper):
 
 	def __init__(self):
 		self.location = None
@@ -66,7 +66,6 @@ class FrgScraper(BS4Scraper):
 						print(f"location {location} SKIP!!!!")
 						skip = True
 						break
-					job_details["location"] = location.replace("Spain, ", "")
 				elif "Date Posted" in detail.text:
 					job_details["posted_date"] = detail.text.split("Date Posted:")[1].strip()
 			if skip:
@@ -75,6 +74,9 @@ class FrgScraper(BS4Scraper):
 
 			position_url = position.find(class_="btn btn-primary-theme btn-view")['href']
 			job_details["url"] = position_url
+			job_details["location"] = self.role
+			job_details["source"] = self.source
+			job_details["role"] = self.role
 			self.filtered_positions.append(job_details)
 
 	def fill_position_details(self):
@@ -84,3 +86,4 @@ class FrgScraper(BS4Scraper):
 			self.parse_content()
 			description = self.parser.find(class_="padding-top-job").text
 			position['description'] = description
+		return self.filtered_positions
