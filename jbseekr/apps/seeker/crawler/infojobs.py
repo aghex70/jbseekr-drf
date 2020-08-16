@@ -215,6 +215,7 @@ class InfojobsCrawler(BaseCrawler):
 		cleansed_field_description = '"' + joined_field_pieces.replace('",', '').replace('"', '') + '"'
 		return cleansed_field_description
 
+"""
 import time
 import asyncio
 import pyppeteer
@@ -573,6 +574,7 @@ class NewInfojobsCrawler():
 	@staticmethod
 	def wait_implicit_time(seconds):
 		time.sleep(seconds)
+"""
 
 """
 async def main():
