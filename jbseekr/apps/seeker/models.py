@@ -5,16 +5,24 @@ from django.db.models import JSONField
 
 
 class Company(models.Model):
+	COMPANY_TYPE_CHOICES = (
+		('Startup', 'Startup'),
+		('Well_established_company', 'Well_established_company'),
+		('Consulting_firm', 'Consulting_firm'),
+	)
+
 	name = models.CharField(blank=True, null=True, max_length=255)
 	description = models.TextField(blank=True, null=True)
 	web = models.CharField(blank=True, null=True, max_length=255)
 	workers = models.IntegerField(blank=True, null=True)
+	type = models.CharField(choices=COMPANY_TYPE_CHOICES, null=True, max_length=255)
 
 
 class Position(models.Model):
 	SOURCE_CHOICES = (
 		('Linkedin', 'Linkedin'),
 		('Infojobs', 'Infojobs'),
+		('FRG', 'FRG'),
 	)
 
 	role = models.CharField(blank=True, null=True, max_length=255)
@@ -28,8 +36,7 @@ class Position(models.Model):
 	top_skills = models.TextField(blank=True, null=True)
 	source = models.CharField(choices=SOURCE_CHOICES, max_length=255)
 	company = models.ForeignKey(Company, on_delete=models.DO_NOTHING, blank=True, null=True)
-	url = models.CharField(blank=True, null=True, max_length=255)
-	link = models.CharField(blank=True, null=True, max_length=255)
+	link = models.TextField(blank=True, null=True)
 	keywords = JSONField(blank=True, null=True)
 	highlighted = models.BooleanField(default=False)
 	hidden = models.BooleanField(default=False)
@@ -57,4 +64,4 @@ class Position(models.Model):
 class Opinion(models.Model):
 	rating = models.FloatField()
 	company = models.ForeignKey(Company, on_delete=models.DO_NOTHING)
-	url = models.CharField(blank=True, null=True, max_length=255)
+	url = models.TextField(blank=True, null=True)
