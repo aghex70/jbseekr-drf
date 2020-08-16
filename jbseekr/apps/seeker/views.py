@@ -47,7 +47,8 @@ class PositionGeneratorViewSet(BaseViewSet):
             self.logger.error(f"Validation error: {serializer.errors}")
             return Response(data=serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        tasks.generate_offers.apply_async(kwargs=serializer.validated_data, countdown=0)
+        saved_data = serializer.save()
+        tasks.generate_offers.apply_async(kwargs=saved_data, countdown=0)
         return Response(status=status.HTTP_201_CREATED)
 
 
