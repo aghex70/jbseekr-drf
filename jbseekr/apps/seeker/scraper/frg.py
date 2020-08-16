@@ -63,7 +63,6 @@ class FRGScraper(BS4Scraper):
 					location = detail.text.split("Location:")[1].strip()
 					# Can't filter by date, so if location doesn't match our desired location, skip job position
 					if self.location not in location:
-						print(f"location {location} SKIP!!!!")
 						skip = True
 						break
 				elif "Date Posted" in detail.text:
@@ -74,10 +73,10 @@ class FRGScraper(BS4Scraper):
 
 			position_url = position.find(class_="btn btn-primary-theme btn-view")['href']
 			job_details["url"] = position_url
-			job_details["location"] = self.role
+			job_details["location"] = self.location
 			job_details["source"] = self.source
-			job_details["role"] = self.role
 			self.filtered_positions.append(job_details)
+		return self.filtered_positions
 
 	def fill_position_details(self):
 		for position in self.filtered_positions:
@@ -85,5 +84,7 @@ class FRGScraper(BS4Scraper):
 			self.retrieve_content(url=self.origin)
 			self.parse_content()
 			description = self.parser.find(class_="padding-top-job").text
-			position['description'] = description
+			role = self.parser.find(class_="page-header").text
+			position['description'] = description.replace("\n\n\n", "").replace("\n\n\n\n", "")
+			position['role'] = role.strip()
 		return self.filtered_positions
