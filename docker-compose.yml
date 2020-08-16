@@ -6,6 +6,8 @@ services:
     image: postgres
     env_file:
       - .env.jbseekr
+    volumes:
+      - /var/lib/postgresql/data/jbseekr:/var/lib/postgresql/data
 
   web:
     build: .
