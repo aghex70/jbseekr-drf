@@ -574,9 +574,10 @@ class NewInfojobsCrawler():
 	def wait_implicit_time(seconds):
 		time.sleep(seconds)
 
-
+"""
 async def main():
     crawler = await NewInfojobsCrawler()
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
+"""
