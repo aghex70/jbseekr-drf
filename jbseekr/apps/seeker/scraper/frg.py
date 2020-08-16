@@ -85,6 +85,6 @@ class FRGScraper(BS4Scraper):
 			self.parse_content()
 			description = self.parser.find(class_="padding-top-job").text
 			role = self.parser.find(class_="page-header").text
-			position['description'] = description.replace("\n\n\n", "").replace("\n\n\n\n", "")
+			position['description'] = description.replace("\n\n\n", "").replace("\n\n\n\n", "").strip()
 			position['role'] = role.strip()
 		return self.filtered_positions
