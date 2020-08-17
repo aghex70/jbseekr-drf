@@ -15,6 +15,7 @@ class Driver:
 	def __init__(self, path=None):
 		self.driver = None
 		self.path = path if path else settings.CHROMEDRIVER_PATH
+		self.scrolls = 0
 		self.scroll_start_height = 0
 		self.client_height = None
 
@@ -89,9 +90,6 @@ class Driver:
 	def get_elements_by_tag(self, tag):
 		return self.driver.find_elements_by_tag_name(tag)
 
-	def get_elements_by_class(self, class_name):
-		return self.driver.find_elements_by_class_name(class_name)
-
 	def get_elements_by_id(self, id):
 		return self.driver.find_elements_by_id(id)
 
@@ -143,9 +141,6 @@ class Driver:
 	def select_dropdown_option(self, text):
 		select = Select(self.get_by_xpath(xpath="//*[@id='of_provincia_chosen']"))
 		select.select_by_visible_text(text)
-
-	def close(self):
-		self.driver.close()
 
 	def wait_implicit_time(self, seconds):
 		self.driver.implicitly_wait(seconds)
