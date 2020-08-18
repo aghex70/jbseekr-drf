@@ -1,5 +1,3 @@
-import json
-
 from contextlib import suppress
 
 from .base import BS4Scraper
@@ -61,7 +59,7 @@ class FRGScraper(BS4Scraper):
 					job_details["salary"] = detail.text.split("Salary:")[1].strip()
 				elif "Location" in detail.text:
 					location = detail.text.split("Location:")[1].strip()
-					# Can't filter by date, so if location doesn't match our desired location, skip job position
+					# Can't filter by location, so if location doesn't match our desired location, skip job position
 					if self.location not in location:
 						skip = True
 						break

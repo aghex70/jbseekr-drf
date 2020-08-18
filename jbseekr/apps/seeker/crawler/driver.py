@@ -1,14 +1,13 @@
+import time
+
+#from fake_useragent import UserAgent
 from selenium import webdriver
 from selenium.webdriver.support.ui import (Select, WebDriverWait)
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-
-
-import time
-
 from django.conf import settings
-#from fake_useragent import UserAgent
+
 
 
 class Driver:
@@ -16,6 +15,7 @@ class Driver:
 		self.driver = None
 		self.path = path if path else settings.CHROMEDRIVER_PATH
 		self.scrolls = 0
+		self.scrolls_number = 0
 		self.scroll_start_height = 0
 		self.client_height = None
 
@@ -75,16 +75,20 @@ class Driver:
 	def get_class_name_attribute(self, name, attribute):
 		return self.driver.find_element_by_class_name(name).get_attribute(attribute)
 
-	def get_inner_elements_by_tag(self, container, tag):
+	@staticmethod
+	def get_inner_elements_by_tag(container, tag):
 		return container.find_elements_by_tag_name(tag)
 
-	def get_inner_elements_by_class(self, container, name):
+	@staticmethod
+	def get_inner_elements_by_class(container, name):
 		return container.find_elements_by_class_name(name)
 
-	def get_inner_elements_by_id(self, container, id):
+	@staticmethod
+	def get_inner_elements_by_id(container, id):
 		return container.find_elements_by_id(id)
 
-	def get_inner_elements_by_text(self, container, text):
+	@staticmethod
+	def get_inner_elements_by_text(container, text):
 		return container.find_elements_by_xpath(f"//*[contains(text(), '{text}')]")
 
 	def get_elements_by_tag(self, tag):
@@ -99,25 +103,25 @@ class Driver:
 	def wait_until_title_contains_keyword(self, title):
 		try:
 			WebDriverWait(self.driver, 5).until(EC.title_contains(title))
-		except:
+		except Exception:
 			pass
 
 	def wait_until_element_is_loaded_by_xpath(self, xpath, seconds):
 		try:
 			WebDriverWait(self.driver, seconds).until(EC.element_to_be_clickable((By.XPATH, xpath)))
-		except:
+		except Exception:
 			pass
 
 	def wait_until_element_is_loaded_by_class(self, class_name, seconds):
 		try:
 			WebDriverWait(self.driver, seconds).until(EC.element_to_be_clickable((By.CLASS, class_name)))
-		except:
+		except Exception:
 			pass
 
 	def wait_until_element_is_loaded_by_id(self, id, seconds):
 		try:
 			WebDriverWait(self.driver, seconds).until(EC.element_to_be_clickable((By.ID, id)))
-		except:
+		except Exception:
 			pass
 
 	def scroll_bottom(self):
