@@ -22,11 +22,11 @@ class HandlerTask(celery.Task):
 	def on_failure(self, exc, task_id, args, kwargs, einfo):
 		if self.request.retries != self.max_retries:
 			countdown = self.default_retry_delay ** (self.request.retries + 1)
-			logger.error(self.exc)
+			logger.error(exc)
 			logger.error(f"Error occurred in {self.name} task. Proceeding to retry in {countdown} seconds.")
 			self.retry(countdown)
 		else:
-			logger.error(self.exc)
+			logger.error(exc)
 			logger.error(f"Error occurred in {self.name} task. Max retries reached.")
 
 
