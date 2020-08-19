@@ -77,7 +77,7 @@ class InfojobsCrawler(BaseCrawler):
 
 	@staticmethod
 	def wrap_salary(minimum_salary, maximum_salary):
-		salary = ""
+		salary = None
 		if minimum_salary and maximum_salary:
 			salary = f"{minimum_salary} - {maximum_salary}"
 		elif minimum_salary:
