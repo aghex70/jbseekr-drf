@@ -36,7 +36,7 @@ class JobFluent(RequestsHTMLParser):
 						"link": re.sub("/es/empleos.*", url, self.content.url),
 						"requirements": " - ".join(sorted(list({skill.text for skill in position.find(".label-skill")}))),
 						"source": self.source,
-						"salary": position.find(".salary")[0].text,
+						"salary": None if not position.find(".salary")[0].text else position.find(".salary")[0].text,
 						"category": position.find(".label-category")[0].text,
 						"industry": position.find(".label-industry")[0].text,
 						"company_type": self.company_type
