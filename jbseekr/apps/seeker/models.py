@@ -3,7 +3,7 @@ from django.utils import timezone
 
 from django.db.models import JSONField
 
-#from .managers import HighlightedPositionManager, IgnoredPositionManager
+from .managers import HighlightedPositionManager, IgnoredPositionManager
 
 
 class Company(models.Model):
@@ -61,9 +61,9 @@ class Position(models.Model):
 	company = models.ForeignKey(Company, on_delete=models.DO_NOTHING, blank=True, null=True)
 
 	# Managers
-	#objects = models.Manager()
-	#highlighted = models.HighlightedPositionManager()
-	#ignored = models.IgnoredPositionManager()
+	objects = models.Manager()
+	highlighted = HighlightedPositionManager()
+	ignored = IgnoredPositionManager()
 
 	def __str__(self):
 		return f"{self.role} - {self.city}"
@@ -73,6 +73,10 @@ class Position(models.Model):
 		# Custom made save in order to have created_date editable in admin
 		if not self.id:
 			self.created_date = now
+
+		if not self.posted_date:
+			self.posted_date = now
+
 		self.modified_date = now
 		return super(Position, self).save(*args, **kwargs)
 
