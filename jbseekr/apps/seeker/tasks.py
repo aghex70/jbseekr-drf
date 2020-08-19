@@ -62,8 +62,6 @@ def generate_infojobs_offers(self, positions_created=0, **kwargs):
 	positions = crawler.retrieve_details()
 	for position in positions:
 		if not Position.objects.filter(link=position.get("url")).exists():
-			maximum_salary = position.get("maximum_salary")
-			minimum_salary = position.get("minimum_salary")
 			new_position = Position.objects.create(
 				role=position.get("role"),
 				description=position.get("description"),
@@ -75,7 +73,7 @@ def generate_infojobs_offers(self, positions_created=0, **kwargs):
 				modified_date=pytz.timezone(tz).localize(position.get("modified_date")),
 				requirements=" - ".join(position.get("top_skills")),
 				source=position.get("source"),
-				salary=f"{minimum_salary} - {maximum_salary}",
+				salary=position.get("salary"),
 				experience=position.get("experience"),
 				responsibility=position.get("level"),
 				staff_in_charge=position.get("staff_in_charge"),
