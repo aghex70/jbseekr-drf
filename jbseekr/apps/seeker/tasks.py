@@ -114,6 +114,7 @@ def generate_linkedin_offers(self, positions_created=0, **kwargs):
 				city=kwargs.get("location"),
 				posted_date=details.get("datePosted"),
 				source=scraper.source,
+				salary=details.get("salary"),
 				experience=details.get("experienceRequirements"),
 				keywords=kwargs,
 				contract_type=details.get("employmentType"),
@@ -148,6 +149,7 @@ def generate_frg_offers(self, positions_created=0, **kwargs):
 				link=position.get("url"),
 				city=kwargs.get("location"),
 				posted_date=posted_date,
+				salary=position.get("salary"),
 				source=position.get("source"),
 				keywords=kwargs
 			)
