@@ -20,6 +20,8 @@ class Company(models.Model):
 	market = models.CharField(null=True, max_length=20)
 	type = models.CharField(choices=COMPANY_TYPE_CHOICES, null=True, max_length=25)
 
+	def __str__(self):
+		return self.name
 
 class Position(models.Model):
 	SOURCE_CHOICES = (
@@ -34,9 +36,10 @@ class Position(models.Model):
 		('Infojobs', 'Infojobs'),
 		('FRG', 'FRG'),
 		('JobFluent', 'JobFluent'),
+		('Glassdoor', 'Glassdoor'),
 	)
 
-	role = models.CharField(blank=True, null=True, max_length=100)
+	role = models.CharField(blank=True, null=True, max_length=255)
 	description = models.TextField(blank=True, null=True)
 	link = models.TextField(blank=True, null=True)
 	city = models.CharField(blank=True, null=True, max_length=50)
