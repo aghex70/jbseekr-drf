@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'jbseekr.apps.seeker',
     'celery',
     'django_celery_results',
+    'django_elasticsearch_dsl',
+    'django_elasticsearch_dsl_drf',
     #'storages',
 ]
 
@@ -187,3 +189,9 @@ if celery_url_parse.scheme == 'rediss':
         'ssl_cert_reqs': None
     }
     CELERY_BROKER_URL = CELERY_BROKER_URL.replace('rediss', 'redis')
+
+ELASTICSEARCH_DSL={
+    'default': {
+        'hosts': 'elasticsearch:9200'
+    },
+}
