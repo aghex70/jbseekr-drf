@@ -31,9 +31,12 @@ class JobFluent(RequestsHTMLParser):
 				positions = self.content.html.find(".offer-body")
 				for position in positions:
 					url = list(position.find(".offer-title")[0].links)[0]
+					# Remove query params and n
+					composed_url = re.sub("/es/empleos.*", url, self.content.url)
+					cleansed_url = re.sub("\?.+$", "", composed_url)
 					job_offer = {
 						"role": position.find(".offer-title")[0].text,
-						"link": re.sub("/es/empleos.*", url, self.content.url),
+						"link": cleansed_url,
 						"requirements": " - ".join(sorted(list({skill.text for skill in position.find(".label-skill")}))),
 						"source": self.source,
 						"salary": None if not position.find(".salary")[0].text else position.find(".salary")[0].text,
