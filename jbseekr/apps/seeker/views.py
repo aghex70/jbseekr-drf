@@ -4,7 +4,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from drf_yasg.utils import swagger_auto_schema
 
-from . import tasks, serializers
+from . import tasks, serializers, models
 
 
 class BaseViewSet(viewsets.ViewSet):
@@ -47,4 +47,11 @@ class PositionGeneratorViewSet(BaseViewSet):
 
 
 class PositionViewSet(viewsets.ModelViewSet):
-    pass
+    authentication_classes = []
+    permission_classes = ()
+    serializer_class = None
+
+    def list(self, request):
+        results = models.Position.objects.filter()[0:10].values()
+        return Response(data=results, status=status.HTTP_200_OK)
+
