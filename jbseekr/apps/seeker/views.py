@@ -4,7 +4,7 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 from drf_yasg.utils import swagger_auto_schema
 
-from . import tasks, serializers, models
+from . import tasks, serializers, models, documents
 
 
 class BaseViewSet(viewsets.ViewSet):
@@ -52,6 +52,11 @@ class PositionViewSet(viewsets.ModelViewSet):
     serializer_class = None
 
     def list(self, request):
-        results = models.Position.objects.filter()[0:10].values()
+        _documents = documents.PositionDocument.search()[0:1000]
+        # Elastic Search
+        # results = [hit.__dict__.get("_d_") for hit in _documents]
+        results = [hit._d_ for hit in _documents]
+        # SQL
+        # results = models.Position.objects.filter().values()
         return Response(data=results, status=status.HTTP_200_OK)
 
