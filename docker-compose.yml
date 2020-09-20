@@ -7,26 +7,40 @@ services:
       - .env.jbseekr
     volumes:
       - /var/lib/postgresql/data/jbseekr:/var/lib/postgresql/data
+  frontend:
+    build: ./frontend
+    command: ["npm", "start"]
+    volumes:
+      - ./frontend:/frontend
+      - node-modules:/frontend/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
   web:
-    build: .
+    build: ./backend
     env_file:
       - .env.jbseekr
-    command: bash -c "python scripts/check_service.py --service-name db --ip db --port 5432 &&
-      python manage.py makemigrations &&
-      python manage.py migrate &&
-      python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python backend/scripts/check_service.py --service-name db --ip db --port 5432 &&
+      python backend/manage.py makemigrations &&
+      python backend/manage.py migrate &&
+      python backend/manage.py runserver 0.0.0.0:8000  &&
+      python backend/manage.py get_new_offers &&
+      python backend/get_new_offers.py"
     volumes:
-      - .:/code
+      - .:/backend
     ports:
       - "8000:8000"
     depends_on:
       - db
       - redis
-      - elasticsearch
+#      - elasticsearch
+      - flower
   redis:
     image: redis:alpine
   celery:
-    build: .
+#    image: celery:latest
+    build: ./backend
     env_file:
       - .env.jbseekr
     command: >
@@ -36,19 +50,7 @@ services:
     depends_on:
       - db
       - redis
-  celery-beat:
-    build: .
-    env_file:
-      - .env.jbseekr
-    command: >
-      bash -c "celery beat -A jbseekr.celery -l info"
-    volumes:
-      - .:/usr/src/app/
-    depends_on:
-      - db
-      - redis
   flower:
-    build: .
     image: flower:latest
     env_file:
       - .env.jbseekr
@@ -57,10 +59,12 @@ services:
       - redis
     ports:
       - "5555:5555"
-  elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.0
-    environment:
-      - discovery.type=single-node
-    ports:
-      - "9200:9200"
-      - "9300:9300"
+#  elasticsearch:
+#    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.0
+#    environment:
+#      - discovery.type=single-node
+#    ports:
+#      - "9200:9200"
+#      - "9300:9300"
+volumes:
+  node-modules:

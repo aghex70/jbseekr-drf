@@ -1,0 +1,2531 @@
+{
+  'currentPage': 2,
+  'pageSize': 20,
+  'totalResults': 225,
+  'currentResults': 20,
+  'totalPages': 12,
+  'availableSortingMethods': ['relevancia-desc', 'updated-desc'],
+  'sortBy': 'updated-desc',
+  'items': [{
+    'id': '51a9eaba6543b1a57fc76056a35ad2',
+    'title': 'VMware & Microsoft Engineer',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/vmware-microsoft-engineer/of-i51a9eaba6543b1a57fc76056a35ad2',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3113,
+      'value': 'Sistemas'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-18T08:32:53.000Z',
+    'updated': '2020-09-18T08:32:53.000Z',
+    'author': {
+      'id': '15669c87ab42bf912fd5bf0e520993',
+      'name': 'everis Ofertas de empleo Profesionales',
+      'uri': 'https://everis.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/95/957518bb-b5dd-4b4a-9bd0-28ddcce69b8d?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTY4NDYsImV4cCI6MTczMDc5OTI0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzk1Lzk1NzUxOGJiLWI1ZGQtNGI0YS05YmQwLTI4ZGRjY2U2OWI4ZCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.MCwdEB4zz9QQO2Ml5Wir_Ad-8OIZBoV4F6uCeXeEj8rm1TCrZHtvgOmYAkMJWz90uLcefPcCPaaQJTn874LZfU7gXk8mjHTX68K2GGOhf4HSuEzzo0z96xOaUTIAOErYZnksqcQBo9Vcgyycx7QwnTXvVsuNyC1q01rfBh9CXW48WIqRPlyZhVCBg2wsxSZRJj-bFBlO_anpJB-VO0bqGoRpeSpCf9RtaETUob0eJ9O-fJ-ETP1Te-9u0qQfljDCBy2crKpxIvxDQjaZERrZgXavEsLhyuTht8LP7LYr8M5dchjTAqaxvBKeHH4heJMYXQaRSStBeRYRowg6_MvM0g&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'eae975f73245c3b8f184eca93edf2e',
+    'title': 'INGENIERO/A PROGRAMADOR SECTOR AERONÁUTICO (para Alemania)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-programador-sector-aeronautico-para-alemania/of-ieae975f73245c3b8f184eca93edf2e',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 125,
+      'value': 'Grado'
+    },
+    'published': '2020-09-18T08:15:29.000Z',
+    'updated': '2020-09-18T08:15:29.000Z',
+    'author': {
+      'id': '131953524536308401605105544644',
+      'name': 'AKKA TECHNOLOGIES SPAIN S.L.U.',
+      'uri': 'https://akka.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/ee/eef087eb-025a-4bde-ab0d-ac37073b9513?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTA0OTI2ODQsImV4cCI6MTcwODI1OTA4NCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2VlL2VlZjA4N2ViLTAyNWEtNGJkZS1hYjBkLWFjMzcwNzNiOTUxMyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.YitFZLjtJRcC1gZlUeMn_aKGEhIv-dohP-W3lvWq_PC2tdYplp1pTDLTLUcgBBn4kGjriR41lcoOKHsRSm0KjAiEKBdohVKVeOn12G94HbBzIJFopv5tFa_irtIu4dJtcQVdmEosQvKUx7wjQ_RfWCuwmBQgr1-ho9bDanS_BU1LSJ5U63KGr1EGo0rnaH73iPdCk7Yk_jKEtHn2n4sN0QHeVVs7DS7iurk3NZm8k1ila_8C7kK1D7pFrUaWhaOxrxsXepckrIS0odkkK7lqeUH-ULLU_ezwVbhIX2KF5xcaRQYPbu6xeZ4zZTt-S63hFxcZtJNmEuatkikT1ri5hQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Grado en Ingeniería informática o Ingeniería aeronáutica con Máster en informática. \n\n-Experiencia mínima de 2 años programando (lenguajes de programación como C, C++, Java, Python, etc)\n\n-Disponibilidad para cambio de residencia a Alemania, al menos durante 2 años. \n\n-Muy valorables conocimientos de alemán.',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '94c9988cd94d16b908b74127726e19',
+    'title': 'Programador/a C# (.NET / .NET Core)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/programador-c-.net-.net-core/of-i94c9988cd94d16b908b74127726e19',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 5,
+      'value': 'Más de 5 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-18T06:44:08.000Z',
+    'updated': '2020-09-18T06:44:08.000Z',
+    'author': {
+      'id': '961450424526202850173215054762',
+      'name': 'Sermicro',
+      'uri': 'https://sermicro.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d0/d048776a-8cc9-4540-9c20-13024ffe43ce?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1Mjk1NzY2NTUsImV4cCI6MTcxODg4MjY1NSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2QwL2QwNDg3NzZhLThjYzktNDU0MC05YzIwLTEzMDI0ZmZlNDNjZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eO-kZ_9cwQokB-2IxJRfgO23jHZ9lSNp5xF-u41BzKqf2z9XOAxE3LL8iNhUeMoNcfhmpZFFyvQBnzAMJ4_oXQTLnJUOCpsgUZ1KZqJ8vseMPQ0_59qnM0RMgtgIIlA5jQIZ-Obs3k5tNDU5fS-Yv1b8tDSFTY0ISsKmB7ExePz5nNvbgMOuG86lJ4VmLTiXfv2BPaGVUalbyb6Bhad4CXA5-PWSjoiTXp6LIty9ALWRu9C-A-RGZNycy9SvJQQU0qLry3ufFdo02Y7HVM5ZcAm99H5hGhMZhFgHSA-DzH4vlOurfPIZRFBxwzXe6UT9ws5S0pU8b-je7BBl0QyS2A&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Experiencia de 3-5 años con .Net y experiencia con .Net core\n- Experiencia de 1 años con un stack secundario (Python o Nodejs)\n- Experiencia con microservicios y Docker.\n- Nivel alto de inglés.\n- Valorable: experiencia con Mobile Surface Microsoft',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'db95f7adc5498dab4a50899a5c50c8',
+    'title': 'Ingeniero/a Diseño Electrónica potencia',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-diseno-electronica-potencia/of-idb95f7adc5498dab4a50899a5c50c8',
+    'category': {
+      'id': 80,
+      'value': 'Ingenieros y técnicos'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3055,
+      'value': 'Otras ingenierías'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-18T06:39:44.000Z',
+    'updated': '2020-09-18T06:39:44.000Z',
+    'author': {
+      'id': '65484949525757656982782008076940909937',
+      'name': 'ARGHOS SERVICIOS DE INGENIERIA',
+      'uri': 'https://arghos.trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/84/84754eac-c60b-4796-8509-171529ce5d6c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTcwNDIsImV4cCI6MTczMDc5OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzg0Lzg0NzU0ZWFjLWM2MGItNDc5Ni04NTA5LTE3MTUyOWNlNWQ2YyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eWV2JMBKYb9LjrdoMVYY-hyJx-GB88AuOKAzzpO3w5FY68n5b6r1E0BD0PMhvLOevTBVehH4BfWK7qznFqDnAuDrjXl9ij7ESzmEBGI1va2yCeGBPJCKTcPxdvFZ55jA6SasiinjQfIhGLcTmhUOzZyyjxwxYqoKrf6DaQnXHV22LgC430fEpynGuMqmUVpIWblfHDm2CMHZl7S50DWyrTKD2x2_7cNgaJjr7nP0CkIT0-a_BtoQE0nTtpRG4PSGrDUKG6C_SY9MYLno7RgE2MEND1qTF0aUclSsEBX5aHXTGIfa87UrQUhDapOPCVh96pnr2Alo8_AvbmKPzlh0Uw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': True
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'd8181d166c4e2885ba9c22c30a2c1f',
+    'title': 'Desarrollador C++ junior',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/desarrollador-c-junior/of-id8181d166c4e2885ba9c22c30a2c1f',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 125,
+      'value': 'Grado'
+    },
+    'published': '2020-09-18T06:31:32.000Z',
+    'updated': '2020-09-18T06:31:32.000Z',
+    'author': {
+      'id': '02ad0634884e4babeea2825f7ad267',
+      'name': 'ALTRAN - Consultores/as',
+      'uri': 'https://altran.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d5/d57d6ec9-ec25-47a6-b89b-0b8474344c62?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzA0MzYzNzMsImV4cCI6MTcyODIwNjM3MywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2Q1L2Q1N2Q2ZWM5LWVjMjUtNDdhNi1iODliLTBiODQ3NDM0NGM2MiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.EQviMxa7fbfqszqSeox1O9VlEnPkYGhcA3J4je9ZpDgcsb-hyBiyjolc35th6pynygdsl-6jt6uuXh9dI4GmwUer5p9Ebq0b63GDbCwczGTH-wz8K2ZdGSN4W8sw0VlyYAKlWIIMcP6I5iFyDPJaSxKpBtHtSFqzt8uSs0_40ZiF3emdOvuGzEdCWcXXFjK4kPAzcCxU-ycUXDdN-v1eHfjoIqdbodqyYIHKBZIthMoFRNzIFU4jwp5chOrS9fppGDQFKDWAGqXiZ1ty7tfDFNJjQuVMo9O5OP4eY7JsrXRc_TEJqCoo8zf-fxL8OSFtiJPgxexvd_NzoRLmesSKGQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Competencia indispensable:\n\n- Al menos 1 año de experiencia en programación en C++ y en Linux (preferiblemente en proyectos grandes con restricciones de rendimiento)\n\n- Buen nivel de inglés\n\nValorable:\n\n- C++11 (sobre todo smart_pointers)\n\n- STL (mapas, listas, vectores, iterador, set...)\n\n- Patrones de diseño\n· Python\n· TCP/IP Networking and protocols, data networks and IP-based applications\n· Git\n· Experiencia con Unix/Linux tool chain: compilers, debuggers, profilers\n\n- Conocimiento y experiencia con: GSM/GPRS, Edge, CDMA, UMTS and LTE networks\n\n- Scripting: Shell, Perl, o similar\n\n- Programación concurrente en C++\n\n- Jenkins, Gerrit',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'df6d0ed1dd444c9311ff2c28741a90',
+    'title': 'Ingeniero sistemas Inteligencia Artificial',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-sistemas-inteligencia-artificial/of-idf6d0ed1dd444c9311ff2c28741a90',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T23:26:53.000Z',
+    'updated': '2020-09-17T23:26:53.000Z',
+    'author': {
+      'id': '98565650515353777365320019213880418864',
+      'name': 'MIA ADVANCED SYSTEMS SL',
+      'uri': 'https://mia.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/37/3799ee52-f8f4-40cd-9447-aebf3ca6e899?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1OTM2ODYwNDYsImV4cCI6MTYyNTIyNTY0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzM3LzM3OTllZTUyLWY4ZjQtNDBjZC05NDQ3LWFlYmYzY2E2ZTg5OSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.aJU7qxGxSf3n6fx7WvNaw7pe1X_5Xc5_L1yVtlsR_G3NSLqfQjlTrL6N2NayEXjy8ZsoN8m23iz4I4x1kjd9ylkr54h-JggQy_rSjkX7ejVgUGaR-Tvj9EzVFmnDKbmUzIV39u0TCs6wxwZ7Abe5M0bZo2plhqTO0zIEK_uXgp5NEfYZpm4RE1BzEJvR89QrrpFqmM2I4eviBOesoQ05B7U5BV_ozDmyd1bcus1t6HeWt0bOldVvvKqYWmVIOpTn1TaDReT9fSswKhkKz7BzugbxY3gKf0MLYX11h92TBITkSPAMPIKb5YHmU1jCFq_BfRpd61hvcY8XEe1LA2XotQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Buscamos profesionales que cuenten con experiencia mínima de 2 años realizando tareas de gestión proyectos en entornos PHP, Java, J2EE y Python.',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Más de 20.000€',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '7da59fc3a041368917870df707cbb8',
+    'title': 'Devops/Arquitecto de sistemas Senior',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Las Rozas De Madrid',
+    'link': 'https://www.infojobs.net/las-rozas-de-madrid/devops-arquitecto-sistemas-senior/of-i7da59fc3a041368917870df707cbb8',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3107,
+      'value': 'Arquitectura'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T19:07:55.000Z',
+    'updated': '2020-09-17T19:07:55.000Z',
+    'author': {
+      'id': '966756524526202650333215455375',
+      'name': 'Cibernos',
+      'uri': 'https://cibernos.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/70/7059e73e-4162-432e-b26b-c672c5901c84?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTI1MDMsImV4cCI6MTczMDc5NDkwMywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzcwLzcwNTllNzNlLTQxNjItNDMyZS1iMjZiLWM2NzJjNTkwMWM4NCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.goC_CIp8k0hP2g2sAGOfK-oQaQb1MDS6g-JKWo28pmxE_ksVRKaYmfvC31xsMmXnyOjgybHci-W-xKRbkdwqEbcEe6Ko-b3_L2vjwna2h5saM2A33LkDBkRMKqHh9M5bB5BAYqZbQp_LLXeN7F_Li7U_Kf-9p9bkg61KjLF-6iyfxNBlqfzzbCVge4zHnFMUaOYJJdtMSqlXqQenrtR9gsYQuycfuqRQpKF_yGXKVDhU39Y9gUOvquI2HgeVpDIx1yn-vGudzsgpSbqGKxevBWUeYFj30aSEDfLDZxTHPHPhpQwGLOf58L2FDIe6V0s2upOk65acKftomoqzvXDyjQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '1. Experiencia montando arquitecturas docker y kubernetes (desde cero)\n2. Experiencia en AWS y su administración*\n3. Experiencia administrando sistemas tanto en desarrollo como en entornos de producción junto con los certificados que correspondan.\n4. Experiencia en scripting\n5. Experiencia con python\n6. Experiencia con jenkins y ansible (o herramientas de administración similares)\nValorable\n1. Conocimiento en Azure y GCP (Google Cloud Platform)',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'd909ec04404107962350ee870883f0',
+    'title': 'Desarrollador fullstack',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/desarrollador-fullstack/of-id909ec04404107962350ee870883f0',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 280,
+      'value': '30.000 €'
+    },
+    'salaryMax': {
+      'id': 960,
+      'value': '40.000 €'
+    },
+    'salaryPeriod': {
+      'id': 3,
+      'value': 'Bruto/año'
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 30,
+      'value': 'Formación Profesional Grado Medio'
+    },
+    'published': '2020-09-17T16:12:13.000Z',
+    'updated': '2020-09-17T16:12:13.000Z',
+    'author': {
+      'id': '98565354555954835084329009104245705052',
+      'name': 'S2T soluciones de tecnología y telecomunicaciones',
+      'uri': 'https://www.infojobs.net/s2t-soluciones-de-tecnologia-y-telecomunicaciones/em-i98565354555954835084329009104245705052',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/93/931215b3-264a-46d2-8548-4eadf56ce1e4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTI5OTgsImV4cCI6MTczMDc5NTM5OCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzkzLzkzMTIxNWIzLTI2NGEtNDZkMi04NTQ4LTRlYWRmNTZjZTFlNCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.Qg5MCEiv-jZSZNSKrEtLd-YcXOgL6H6rcFjZy9ZvYSTZgv7j8zOXmuPACuCxc4lJXfoUTmUKzWNixq0Kr0JsqVAjzcDsvj4Mc2unAgRyFyNZqhii2zKnAGjNbN1XFOzr-j2eMt8RrcpKQVG8LMuiUJTksCqJpYMZCgrLfgFSbaQYRIgWOQfbXBn0Z6XM7bDPatLh8_ir4NC6jl0FxV1ADSQjcrSCHKB1Pw7ansT9Ur6KfZ1QABqZGAbS0UjhBTXCn68wWuK_OirT3OPwyZHuMo-H1wNUEmCH9tQYPpoo6tBNgF7rgKAyQx4sEan16br6z3WGulrmm25IPmtgQKmGkw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Alguna de las siguientes tecnologías:\n- PHP\n- JavaScript (Node, Vue)\n- Python\n- MySQL\n- PostgreSQL\n- Docker (Kubernetes)',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': '30.000€ - 40.000€ Bruto/año',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'a8cea6071f45959639378189cb6745',
+    'title': 'Analista Cloud',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-cloud/of-ia8cea6071f45959639378189cb6745',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3106,
+      'value': 'Análisis'
+    },
+    'salaryMin': {
+      'id': 960,
+      'value': '40.000 €'
+    },
+    'salaryMax': {
+      'id': 300,
+      'value': '42.000 €'
+    },
+    'salaryPeriod': {
+      'id': 3,
+      'value': 'Bruto/año'
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T15:29:02.000Z',
+    'updated': '2020-09-17T15:29:02.000Z',
+    'author': {
+      'id': '66565149515057676583327006194374500805',
+      'name': 'CAS',
+      'uri': 'https://cas-training.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/6f/6f004df1-74ee-41a9-b1bb-43e528010a53?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1ODEyMzAsImV4cCI6MTcxMzg4NzIzMCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzZmLzZmMDA0ZGYxLTc0ZWUtNDFhOS1iMWJiLTQzZTUyODAxMGE1MyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.hPB_cbJ5mIqJh2rs3YL5yfWjGuqgHaI1UYdSN4HDJmCZ7R23MC988RlNGcCysMGU8teLrQx0ejHJ1NSi1GpFtJm2yZYfxAH3wPt-elgQqXCvBTumkFPkG0im8ozWU6zlO7kEg9sL3k90d59YPuw580g0LpT5H9mTzuG1e0SHOvkXiw1cGT7naBypyNfsmHeHTTCEQiSxWK94eV0luSI896Q-1cwfjJK4wYKCYSCyY3g9Otm-rw5hf_qD2_cxRqLWelL92Gwl7spgOM6mgF48udely3PraX9JRIZfr_QRqiVzaSMn4LjC4sRio6guNex92mv_oImNQLaNRPB1ZxqFpQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Funciones: Análisis, desarrollo y pruebas de aplicaciones cloud dentro de un squad multidisciplicar\n\nTecnologías obligatorias: Phyton, Scala, Java on Spark, Databricks\n\nTecnologías deseables: Datalake, Datawarehouse, Blob Storage, CosmosDB / MongoDB. Microsoft Azure / PaaS services. Continuous integration tools knowledge required: Azure Devops, Jenkins, GitLab, or similar\n\nTiempo de experiencia: 2 años de experiencia en IT Projects\n\nPosibilidad de Trabajo en Remoto',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 32,
+    'executive': False,
+    'salaryDescription': '40.000€ - 42.000€ Bruto/año',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'e324449e4a46a18847c2927e397a70',
+    'title': 'Senior QA Automation (Selenium)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/senior-qa-automation-selenium/of-ie324449e4a46a18847c2927e397a70',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3108,
+      'value': 'Calidad'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T15:11:41.000Z',
+    'updated': '2020-09-17T15:11:41.000Z',
+    'author': {
+      'id': '961153524526522702930125154249',
+      'name': 'Sogeti España',
+      'uri': 'https://sogeti.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/2d/2d9b3283-46b8-4df9-bb8f-a1cb3f7dc00e?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MzY3NDg5MDUsImV4cCI6MTcyNjA1NDkwNSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzJkLzJkOWIzMjgzLTQ2YjgtNGRmOS1iYjhmLWExY2IzZjdkYzAwZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.MTxGLc_JLigmDvUtF2zg_AAjlCfZdcco5zT0ZDD7bxrXMU-R5vTHYOUqer5m28qEx4r6NkYuhc1n3Lv352Bt5GiUJ6ceOZmGsu6TsoyPPUiBdWIczeYcoGd8zEuLA58ZB0zPSigke6qvrmoOuF_Qvx6duT8zvyF_wi-zKd0cNkcLt9K3MjKqJpGFs8-Njp-oCnLbltmAPu60w7KwjvcOQUixPbOHEW2hdaOHQF84qPG9JyE3pP6fN3-eIsnSDrbbRs3zHh8qNTT6dD25A6AOuczOOTy7itzhVCP7w_VbLa7ydwagPjipvxgFwaGcjHq4lGaL-A88DDWsh-wcoojXkw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Los requisitos para esta vacante son:\n- Estudios de Grado, Ingeniería técnica o superior en Informática o Telecomunicaciones.\n- Al menos 2 años de experiencia en Testing.\n- Experiencia con herramientas en Automation tools: Selenium Webdriver, Appium, UFT. \n Conocimientos de metodologías Agile y BDD: Cucumber y Gherkin. \n- Proactividad y ganas de aprender.   \n\nSe valorarán: \n- Conocimientos de APIs: Postman, SoapUI.  \n- Conocimientos de lenguajes de programación: Java y/o Python. -',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'cf722132e9472fa67ce04d6db4fee9',
+    'title': 'Cloud Architect',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/cloud-architect/of-icf722132e9472fa67ce04d6db4fee9',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3107,
+      'value': 'Arquitectura'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 1,
+      'value': 'No Requerida'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T15:04:30.000Z',
+    'updated': '2020-09-17T15:04:30.000Z',
+    'author': {
+      'id': '98545351565653651081161010024869510995',
+      'name': 'Altostratus Solutions, S.L.',
+      'uri': 'https://www.infojobs.net/altostratus-solutions-s.l./em-i98545351565653651081161010024869510995',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Experiencia en Microservicios, Java, Spring Boot, Spring Cloud, Docker, Kubernetes y herramientas de CI/CD\n- Uso extensivo de control de versiones de software (GitHub, GitLab, Bitbucket)\n- Conocimientos de Linux y redes\n- Programación en Java, Python, preferible\n\nSe ofrece:\n- Incorporación inmediata \n- Formación continua a cargo de la empresa\n- Contrato indefinido\n- Jornada completa (L-J 9:00 a 18:00 y V 8:00 a 14:00)\n- Todo el material necesario para el correspondiente desarrollo de la actividad',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '714e2983df4d209bcf765413910fb3',
+    'title': 'Software Engineer - Javascript',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/software-engineer-javascript/of-i714e2983df4d209bcf765413910fb3',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T14:40:15.000Z',
+    'updated': '2020-09-17T14:40:15.000Z',
+    'author': {
+      'id': '98565452575456667311010012304920215112',
+      'name': 'binternational',
+      'uri': 'https://www.infojobs.net/binternational/em-i98565452575456667311010012304920215112',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/13/13aaacc0-9633-4508-abab-23e708e6c798?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1NjEzNjQsImV4cCI6MTcxMzg2NzM2NCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzEzLzEzYWFhY2MwLTk2MzMtNDUwOC1hYmFiLTIzZTcwOGU2Yzc5OCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.dAKyK7rCv-eIoWMs5aQLHQ4UelcdqHuKf8sbYlbfB-6dHONj6sV1wuavPMarFUivZU9H6yIWjjCIfFS_ZMEUhHOevKcnEKrLp1xAzOWxc5xHLAvO81SQ1Pfsh3FSz-xUI1frYy8bwUmyPiewN81ISTMDFby2MEZwD4sp3uZ7tLUoUx99hJR9nkvWjQLIs9Ua2kp6twEzzEEjQjI2OkhCkKMHWOYBaBlygpSXjDDSj78BZxkFTI5Js8G41CTr2B0onDNOPwXsHdhyRirA1KSPIc7Ugo_lIyHcdAfZ_gpuB0KkTsXiejrRBh4XwU6Buw5ot_IFuwp9fNUOhHzwHHRLRQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Dominio elevado de Javascript.\n\n- Dominio de diversos lenguajes de programación (Lisp, C/C++, Ruby o Python).\n\n- Valorable experiencia con base de datos NoSQL (mongodb, redis o similares).',
+    'bold': False,
+    'applications': '11',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '1bd1974d954055a7461d9bac120905',
+    'title': 'Ingeniero junior de Validación y Verificación de SW',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Tres Cantos',
+    'link': 'https://www.infojobs.net/tres-cantos/ingeniero-junior-validacion-verificacion-sw/of-i1bd1974d954055a7461d9bac120905',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 130,
+      'value': 'Ingeniería Superior'
+    },
+    'published': '2020-08-13T11:37:53.000Z',
+    'updated': '2020-09-17T14:00:01.000Z',
+    'author': {
+      'id': '963153524526202450133215455146',
+      'name': 'GMV',
+      'uri': 'https://grupogmv.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/38/38f4035a-006c-46ba-b1a1-c3ed6a0796b6?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDExNjE3MzcsImV4cCI6MTczMDQ2NDEzNywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzM4LzM4ZjQwMzVhLTAwNmMtNDZiYS1iMWExLWMzZWQ2YTA3OTZiNiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.Pf6clvy1WRbQvmiDqRcj0YCF3Vnor0-8-HH6CnuGXEGyAFOWF6U3kvOmHs8p-QN7awqPn_YciqYMmOxH5nXB5ywrlyog2R0hLJwdgiDfMdSnFseJO7KWR5IN2D9fMz4KSOoUXzMZc62Ahqj31CyFMu2KNT2oCWT63D4HZHXG4RapjwqTJ7lcjdamOoRfiJOZ6EAe_ue9XBbMDJ37nj5yZV8H37LKVh2YqEKbBNykKfLQnD519zSV6U43V_7sBuiuWe7_BFWsIBfKG7evLY5lpSPnMiVPjK6Zpg3cXCXsZK6ByotMOsWW-gXbEdnI4_Tq6vvqES3uuPE8LCLz6ThwUQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Pruebas unitarias / pruebas automáticas / scripting (por ejemplo, Python, bash)\nPruebas de SW: especificación, desarrollo y ejecución de pruebas\nCloud / Docker y tecnologías relacionadas\nIntegración continua (jenkins o similar) / Desarrollo continuo / gestión de configuración (SVN / GIT ..)\nHerramientas de prueba (Testlink)\nSe valorará conocimiento en:\nUNIX / LINUX con máquinas virtuales\nPreparación de documentación\nServicios web / API REST\nOtras herramientas (Jira, Nexus, Gitlab)\nMetodología Ágil',
+    'bold': False,
+    'applications': '106',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '5fbd686b8c4521abc48cf69da452e3',
+    'title': 'Analista CLOUD',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-cloud/of-i5fbd686b8c4521abc48cf69da452e3',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 35,
+      'value': 'Ciclo Formativo Grado Medio'
+    },
+    'published': '2020-09-02T12:03:44.000Z',
+    'updated': '2020-09-17T13:00:01.000Z',
+    'author': {
+      'id': '98565356525551768567659014055281008495',
+      'name': 'Luca TIC',
+      'uri': 'https://luca-tic.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/f6/f6b9dd93-5f41-44c1-b638-b7b7022a033c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTcyMjkxMjQsImV4cCI6MTcxNDk5OTEyNCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2Y2L2Y2YjlkZDkzLTVmNDEtNDRjMS1iNjM4LWI3YjcwMjJhMDMzYyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.TiP9KhBmp-sGj48gVhYIZzfq2VfecGF_tRgnuJPN4zIyb3s_oNMHO7kW_g4awAxy1_r_ooHXB8bAO-ArJYJXVgCDexSuZoQKhAJGkSUvpasL0WGWcLSdxH3cqjRQ_fXMCaiNjZOsaSCucWbBpviSEZNVSg7TRa7ciMI6WZvAFrPEILEhSm8CcE9SFuYWaw9xA3ng1-eYbVFyZfk_HsbxCqCh515xcowr5BRpsjSwj1UTkVI5LBuH9CUTr2C1pFcy4OcJjLtao41i2FU2Xrpp6Rmp_1VVPfOdUyiHEDYaytpTprF_37DjH3pjtAXd9Tv9VrxK0q8UZ6ku11Qul6Cv3A&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Al menos 2 años de experiencia en IT Projects.\n\nTecnologías Obligatorias:\n- Python\n- Scala\n- Java on Spark\n- Databricks\n\nTecnologías Deseables:\n- Datalake\n- Datawarehouse\n- Blob Storage\n- CosmosDB / MongoDB\n- Microsoft Azure / PaaS services\n\nHerramientas de integración continua requeridas:\nAzure Devops, Jenkins, GitLab o similar.',
+    'bold': False,
+    'applications': '9',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '91d5edc5c6407cb31b7b050dda2039',
+    'title': 'Ingeniero/a Firmware FPGA // VDHL',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-firmware-fpga-vdhl/of-i91d5edc5c6407cb31b7b050dda2039',
+    'category': {
+      'id': 80,
+      'value': 'Ingenieros y técnicos'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3055,
+      'value': 'Otras ingenierías'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T12:00:33.000Z',
+    'updated': '2020-09-17T12:00:33.000Z',
+    'author': {
+      'id': '65484949525757656982782008076940909937',
+      'name': 'ARGHOS SERVICIOS DE INGENIERIA',
+      'uri': 'https://arghos.trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/84/84754eac-c60b-4796-8509-171529ce5d6c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTcwNDIsImV4cCI6MTczMDc5OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzg0Lzg0NzU0ZWFjLWM2MGItNDc5Ni04NTA5LTE3MTUyOWNlNWQ2YyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eWV2JMBKYb9LjrdoMVYY-hyJx-GB88AuOKAzzpO3w5FY68n5b6r1E0BD0PMhvLOevTBVehH4BfWK7qznFqDnAuDrjXl9ij7ESzmEBGI1va2yCeGBPJCKTcPxdvFZ55jA6SasiinjQfIhGLcTmhUOzZyyjxwxYqoKrf6DaQnXHV22LgC430fEpynGuMqmUVpIWblfHDm2CMHZl7S50DWyrTKD2x2_7cNgaJjr7nP0CkIT0-a_BtoQE0nTtpRG4PSGrDUKG6C_SY9MYLno7RgE2MEND1qTF0aUclSsEBX5aHXTGIfa87UrQUhDapOPCVh96pnr2Alo8_AvbmKPzlh0Uw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': True
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '9b48b310404b7eaf0d090d78ed3eef',
+    'title': 'Senior System Engineer Linux/Unix.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/senior-system-engineer-linux-unix./of-i9b48b310404b7eaf0d090d78ed3eef',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3113,
+      'value': 'Sistemas'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-07-30T08:35:21.000Z',
+    'updated': '2020-09-17T12:00:01.000Z',
+    'author': {
+      'id': '605537114336656420748104835411',
+      'name': 'Blue Telecom Consulting',
+      'uri': 'https://www.infojobs.net/blue-telecom-consulting/em-i605537114336656420748104835411',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/b3/b3841b89-e246-4022-9eb3-327ceeca8891?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTU3MzUsImV4cCI6MTczMDc5ODEzNSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2IzL2IzODQxYjg5LWUyNDYtNDAyMi05ZWIzLTMyN2NlZWNhODg5MSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.T-C2EO24QpqU_-_wkEkOAwTQIQeIgD8UtcEhxBKcud-5tlfLlPBy9XN-GQjKjKfpd1-MFP23Ux8jn6tqABUQRm6gMz8VNc3n8ZY0IY2LmqzUK4LISXYCwoW4r62LX3io9HLcZi85Y6vISbw3TVXlKe6TDT3kDsgkRv8xacF-LwrGZeSV45Pou6UL1vGz5mRKOAOMd2uJdPY9qF6ipBHJG3TO1tpVl2dnA7zuMDLemOHzwlTCXznmb5VMXWNyHZbYeGzNdhAZPh0zrqmMHcg9E1a04Nlixsgcxpy9FOOxzq39N2rfJgRfDbQ0yiZj9HOuEZk04hUUNGjHhClQyYFteg&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Good knowledge of operating systems: Unix, Linux, Windows\n\nGood knowledge of Python\n\nDemonstrated experience with Ansible\n\nGood knowledge of OpenStack\n\nFluency in English both spoken and written',
+    'bold': False,
+    'applications': '4',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '49e7d99f904c9b986acc19790ae95d',
+    'title': 'Consultor SQL_Python_Airflow_procesos ETL con Python_Proyecto USA/ EE. UU_Remote.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/consultor-sql_python_airflow_procesos-etl-con-python_proyecto-usa-ee.-uu_remote./of-i49e7d99f904c9b986acc19790ae95d',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3109,
+      'value': 'ERP, CRM, Business Intelligence'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T11:26:52.000Z',
+    'updated': '2020-09-17T11:26:52.000Z',
+    'author': {
+      'id': '969049524526202250723215255987',
+      'name': 'NEORIS',
+      'uri': 'https://neoris.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d3/d3129a8d-b4b2-4e7a-a743-2f1062fcc94b?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1OTI5MDk4NDIsImV4cCI6MTYyNDQ0OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2QzL2QzMTI5YThkLWI0YjItNGU3YS1hNzQzLTJmMTA2MmZjYzk0YiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.ZW34pF5sZ57jpdhKD_mTwjloFm1rRCTHkn65yhWbZENHKSs7GO7EwCfcKYXYtmxLGqqmch9NYk4HgokjjQZlWWJbrZvJSjOczSTu31wzrucLFEUczKC4lS9YuBzDk4T9cIMrTEUWCE_wbEGmWf9hrfBuobu7IayDAg_myaAd2-mIJg86kuqtk5qii95Cng1Q5uZsPJBQh2w9u9CTd24SjPu4VJT3_bvKdtfx5vzq8W6L2SNKPLlOPfkWO9q5-c5pWiK9I9n_s9kFLtTr6wNx6PyFNt5wEzcwhC13_gdS3wVIJBNog_ZMZGYhz-znaxMPR1rst8YyAkq8HGn7ikr4PA&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Alto nivel de inglés\n\n- Alto nivel en lenguaje SQL\n\n- Nivel avanzado de Python\n\n- Experiencia en procesos ETL con Python (manejo de datasets, dataframes, realización de transformaciones join, agg, ... con datasets/dataframes)\n\n- Muy valorable, conocimientos de Airflow',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '3da4bfd5384aef961f54f382f18627',
+    'title': 'Analista Programador Senior Java Javascript con JIRA Banca',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-programador-senior-java-javascript-con-jira-banca/of-i3da4bfd5384aef961f54f382f18627',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T11:16:09.000Z',
+    'updated': '2020-09-17T11:16:09.000Z',
+    'author': {
+      'id': '98565449485655831011101011124334308863',
+      'name': 'Sensu de Servicios y Desarrollos, S.L.',
+      'uri': 'https://sensusd.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/a5/a5c388e3-cd49-47b1-afec-9f302f114881?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTU3NDYsImV4cCI6MTczMDc5ODE0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2E1L2E1YzM4OGUzLWNkNDktNDdiMS1hZmVjLTlmMzAyZjExNDg4MSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.DjIYnIosMX36HzFxviRk90CHwcYK6Dno8K8N-t6rVrbVaLt9dn2hES32aCWYrVtWdHpABkTnReNgKIcMWM8E0GMzEH2kQnySScb2nyLdY9lpCjv2hadYFhHRO_vZdsJPeY8RNPkO-1rxb3NTQ-wI7mI37Y2-Ay3CYEg0leynNae1viBT1JxI_HjXHcqhoGFgiId2FYLpte3hmaCMS5VHF0AZITnvJWtYYFQJsTacBuGnKxT71PJkVl9dEmY9kThXqos_iC8nVnmVyzFoinkttzNMzzrldwEhkxRg_JYa_---QhP3aPgzVCowJCS34qa5mhfx4lLDZBsrVdvbdouIXg&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Java\nJavascript\nJira',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'e2c0ce8f6e47d79f0639fe17d8c918',
+    'title': 'Programador Jr.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Fuenlabrada',
+    'link': 'https://www.infojobs.net/fuenlabrada/programador-jr./of-ie2c0ce8f6e47d79f0639fe17d8c918',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 4,
+      'value': 'A tiempo parcial'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 126,
+      'value': '450 €'
+    },
+    'salaryMax': {
+      'id': 130,
+      'value': '600 €'
+    },
+    'salaryPeriod': {
+      'id': 2,
+      'value': 'Bruto/mes'
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 2,
+      'value': 'Parcial - Mañana'
+    },
+    'study': {
+      'id': 170,
+      'value': 'Otros cursos y formación no reglada'
+    },
+    'published': '2020-08-13T08:57:39.000Z',
+    'updated': '2020-09-17T11:00:02.000Z',
+    'author': {
+      'id': '98555456505154656769838020133430406993',
+      'name': 'ACESPACK INVESTMENT SL.',
+      'uri': 'https://www.infojobs.net/acespack-investment-sl./em-i98555456505154656769838020133430406993',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Importante experiencia en PHP',
+    'bold': False,
+    'applications': '243',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': '450€ - 600€ Bruto/mes',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'c18f58413b4a6cb095d706bd836dc7',
+    'title': 'DATA SCIENTIST',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/data-scientist/of-ic18f58413b4a6cb095d706bd836dc7',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3105,
+      'value': 'Administración de bases de datos'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 130,
+      'value': 'Ingeniería Superior'
+    },
+    'published': '2020-09-10T10:52:10.000Z',
+    'updated': '2020-09-17T11:00:02.000Z',
+    'author': {
+      'id': '98565552565355848285839020104474403522',
+      'name': 'TRUSTSURVEY SL.',
+      'uri': 'https://www.infojobs.net/trustsurvey-sl./em-i98565552565355848285839020104474403522',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Licenciado o Ingeniero en IT o similar \n3 años de experiencia en desarrollo de Python\nExperiencia en análisis de datos avanzados \nExperiencia en stack ML: Tensorflow, Sklearn, MLflow, Airflow\nExperiencia en BBDD: MySQL, Postgre, DynamoDB\nExperiencia con AWS o/y Azure \nGran capacidad de organización y gestión',
+    'bold': False,
+    'applications': '30',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }],
+  'dataLayer': {
+    'search_terms': 'python',
+    'offer_search_page': '2',
+    'offer_search_page_limit': '20',
+    'region_level2_id': '33'
+  },
+  'offers': [{
+    'id': '51a9eaba6543b1a57fc76056a35ad2',
+    'title': 'VMware & Microsoft Engineer',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/vmware-microsoft-engineer/of-i51a9eaba6543b1a57fc76056a35ad2',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3113,
+      'value': 'Sistemas'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-18T08:32:53.000Z',
+    'updated': '2020-09-18T08:32:53.000Z',
+    'author': {
+      'id': '15669c87ab42bf912fd5bf0e520993',
+      'name': 'everis Ofertas de empleo Profesionales',
+      'uri': 'https://everis.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/95/957518bb-b5dd-4b4a-9bd0-28ddcce69b8d?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTY4NDYsImV4cCI6MTczMDc5OTI0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzk1Lzk1NzUxOGJiLWI1ZGQtNGI0YS05YmQwLTI4ZGRjY2U2OWI4ZCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.MCwdEB4zz9QQO2Ml5Wir_Ad-8OIZBoV4F6uCeXeEj8rm1TCrZHtvgOmYAkMJWz90uLcefPcCPaaQJTn874LZfU7gXk8mjHTX68K2GGOhf4HSuEzzo0z96xOaUTIAOErYZnksqcQBo9Vcgyycx7QwnTXvVsuNyC1q01rfBh9CXW48WIqRPlyZhVCBg2wsxSZRJj-bFBlO_anpJB-VO0bqGoRpeSpCf9RtaETUob0eJ9O-fJ-ETP1Te-9u0qQfljDCBy2crKpxIvxDQjaZERrZgXavEsLhyuTht8LP7LYr8M5dchjTAqaxvBKeHH4heJMYXQaRSStBeRYRowg6_MvM0g&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'eae975f73245c3b8f184eca93edf2e',
+    'title': 'INGENIERO/A PROGRAMADOR SECTOR AERONÁUTICO (para Alemania)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-programador-sector-aeronautico-para-alemania/of-ieae975f73245c3b8f184eca93edf2e',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 125,
+      'value': 'Grado'
+    },
+    'published': '2020-09-18T08:15:29.000Z',
+    'updated': '2020-09-18T08:15:29.000Z',
+    'author': {
+      'id': '131953524536308401605105544644',
+      'name': 'AKKA TECHNOLOGIES SPAIN S.L.U.',
+      'uri': 'https://akka.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/ee/eef087eb-025a-4bde-ab0d-ac37073b9513?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTA0OTI2ODQsImV4cCI6MTcwODI1OTA4NCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2VlL2VlZjA4N2ViLTAyNWEtNGJkZS1hYjBkLWFjMzcwNzNiOTUxMyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.YitFZLjtJRcC1gZlUeMn_aKGEhIv-dohP-W3lvWq_PC2tdYplp1pTDLTLUcgBBn4kGjriR41lcoOKHsRSm0KjAiEKBdohVKVeOn12G94HbBzIJFopv5tFa_irtIu4dJtcQVdmEosQvKUx7wjQ_RfWCuwmBQgr1-ho9bDanS_BU1LSJ5U63KGr1EGo0rnaH73iPdCk7Yk_jKEtHn2n4sN0QHeVVs7DS7iurk3NZm8k1ila_8C7kK1D7pFrUaWhaOxrxsXepckrIS0odkkK7lqeUH-ULLU_ezwVbhIX2KF5xcaRQYPbu6xeZ4zZTt-S63hFxcZtJNmEuatkikT1ri5hQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Grado en Ingeniería informática o Ingeniería aeronáutica con Máster en informática. \n\n-Experiencia mínima de 2 años programando (lenguajes de programación como C, C++, Java, Python, etc)\n\n-Disponibilidad para cambio de residencia a Alemania, al menos durante 2 años. \n\n-Muy valorables conocimientos de alemán.',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '94c9988cd94d16b908b74127726e19',
+    'title': 'Programador/a C# (.NET / .NET Core)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/programador-c-.net-.net-core/of-i94c9988cd94d16b908b74127726e19',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 5,
+      'value': 'Más de 5 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-18T06:44:08.000Z',
+    'updated': '2020-09-18T06:44:08.000Z',
+    'author': {
+      'id': '961450424526202850173215054762',
+      'name': 'Sermicro',
+      'uri': 'https://sermicro.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d0/d048776a-8cc9-4540-9c20-13024ffe43ce?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1Mjk1NzY2NTUsImV4cCI6MTcxODg4MjY1NSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2QwL2QwNDg3NzZhLThjYzktNDU0MC05YzIwLTEzMDI0ZmZlNDNjZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eO-kZ_9cwQokB-2IxJRfgO23jHZ9lSNp5xF-u41BzKqf2z9XOAxE3LL8iNhUeMoNcfhmpZFFyvQBnzAMJ4_oXQTLnJUOCpsgUZ1KZqJ8vseMPQ0_59qnM0RMgtgIIlA5jQIZ-Obs3k5tNDU5fS-Yv1b8tDSFTY0ISsKmB7ExePz5nNvbgMOuG86lJ4VmLTiXfv2BPaGVUalbyb6Bhad4CXA5-PWSjoiTXp6LIty9ALWRu9C-A-RGZNycy9SvJQQU0qLry3ufFdo02Y7HVM5ZcAm99H5hGhMZhFgHSA-DzH4vlOurfPIZRFBxwzXe6UT9ws5S0pU8b-je7BBl0QyS2A&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Experiencia de 3-5 años con .Net y experiencia con .Net core\n- Experiencia de 1 años con un stack secundario (Python o Nodejs)\n- Experiencia con microservicios y Docker.\n- Nivel alto de inglés.\n- Valorable: experiencia con Mobile Surface Microsoft',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'db95f7adc5498dab4a50899a5c50c8',
+    'title': 'Ingeniero/a Diseño Electrónica potencia',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-diseno-electronica-potencia/of-idb95f7adc5498dab4a50899a5c50c8',
+    'category': {
+      'id': 80,
+      'value': 'Ingenieros y técnicos'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3055,
+      'value': 'Otras ingenierías'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-18T06:39:44.000Z',
+    'updated': '2020-09-18T06:39:44.000Z',
+    'author': {
+      'id': '65484949525757656982782008076940909937',
+      'name': 'ARGHOS SERVICIOS DE INGENIERIA',
+      'uri': 'https://arghos.trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/84/84754eac-c60b-4796-8509-171529ce5d6c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTcwNDIsImV4cCI6MTczMDc5OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzg0Lzg0NzU0ZWFjLWM2MGItNDc5Ni04NTA5LTE3MTUyOWNlNWQ2YyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eWV2JMBKYb9LjrdoMVYY-hyJx-GB88AuOKAzzpO3w5FY68n5b6r1E0BD0PMhvLOevTBVehH4BfWK7qznFqDnAuDrjXl9ij7ESzmEBGI1va2yCeGBPJCKTcPxdvFZ55jA6SasiinjQfIhGLcTmhUOzZyyjxwxYqoKrf6DaQnXHV22LgC430fEpynGuMqmUVpIWblfHDm2CMHZl7S50DWyrTKD2x2_7cNgaJjr7nP0CkIT0-a_BtoQE0nTtpRG4PSGrDUKG6C_SY9MYLno7RgE2MEND1qTF0aUclSsEBX5aHXTGIfa87UrQUhDapOPCVh96pnr2Alo8_AvbmKPzlh0Uw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': True
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'd8181d166c4e2885ba9c22c30a2c1f',
+    'title': 'Desarrollador C++ junior',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/desarrollador-c-junior/of-id8181d166c4e2885ba9c22c30a2c1f',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 125,
+      'value': 'Grado'
+    },
+    'published': '2020-09-18T06:31:32.000Z',
+    'updated': '2020-09-18T06:31:32.000Z',
+    'author': {
+      'id': '02ad0634884e4babeea2825f7ad267',
+      'name': 'ALTRAN - Consultores/as',
+      'uri': 'https://altran.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d5/d57d6ec9-ec25-47a6-b89b-0b8474344c62?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzA0MzYzNzMsImV4cCI6MTcyODIwNjM3MywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2Q1L2Q1N2Q2ZWM5LWVjMjUtNDdhNi1iODliLTBiODQ3NDM0NGM2MiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.EQviMxa7fbfqszqSeox1O9VlEnPkYGhcA3J4je9ZpDgcsb-hyBiyjolc35th6pynygdsl-6jt6uuXh9dI4GmwUer5p9Ebq0b63GDbCwczGTH-wz8K2ZdGSN4W8sw0VlyYAKlWIIMcP6I5iFyDPJaSxKpBtHtSFqzt8uSs0_40ZiF3emdOvuGzEdCWcXXFjK4kPAzcCxU-ycUXDdN-v1eHfjoIqdbodqyYIHKBZIthMoFRNzIFU4jwp5chOrS9fppGDQFKDWAGqXiZ1ty7tfDFNJjQuVMo9O5OP4eY7JsrXRc_TEJqCoo8zf-fxL8OSFtiJPgxexvd_NzoRLmesSKGQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Competencia indispensable:\n\n- Al menos 1 año de experiencia en programación en C++ y en Linux (preferiblemente en proyectos grandes con restricciones de rendimiento)\n\n- Buen nivel de inglés\n\nValorable:\n\n- C++11 (sobre todo smart_pointers)\n\n- STL (mapas, listas, vectores, iterador, set...)\n\n- Patrones de diseño\n· Python\n· TCP/IP Networking and protocols, data networks and IP-based applications\n· Git\n· Experiencia con Unix/Linux tool chain: compilers, debuggers, profilers\n\n- Conocimiento y experiencia con: GSM/GPRS, Edge, CDMA, UMTS and LTE networks\n\n- Scripting: Shell, Perl, o similar\n\n- Programación concurrente en C++\n\n- Jenkins, Gerrit',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'df6d0ed1dd444c9311ff2c28741a90',
+    'title': 'Ingeniero sistemas Inteligencia Artificial',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-sistemas-inteligencia-artificial/of-idf6d0ed1dd444c9311ff2c28741a90',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T23:26:53.000Z',
+    'updated': '2020-09-17T23:26:53.000Z',
+    'author': {
+      'id': '98565650515353777365320019213880418864',
+      'name': 'MIA ADVANCED SYSTEMS SL',
+      'uri': 'https://mia.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/37/3799ee52-f8f4-40cd-9447-aebf3ca6e899?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1OTM2ODYwNDYsImV4cCI6MTYyNTIyNTY0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzM3LzM3OTllZTUyLWY4ZjQtNDBjZC05NDQ3LWFlYmYzY2E2ZTg5OSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.aJU7qxGxSf3n6fx7WvNaw7pe1X_5Xc5_L1yVtlsR_G3NSLqfQjlTrL6N2NayEXjy8ZsoN8m23iz4I4x1kjd9ylkr54h-JggQy_rSjkX7ejVgUGaR-Tvj9EzVFmnDKbmUzIV39u0TCs6wxwZ7Abe5M0bZo2plhqTO0zIEK_uXgp5NEfYZpm4RE1BzEJvR89QrrpFqmM2I4eviBOesoQ05B7U5BV_ozDmyd1bcus1t6HeWt0bOldVvvKqYWmVIOpTn1TaDReT9fSswKhkKz7BzugbxY3gKf0MLYX11h92TBITkSPAMPIKb5YHmU1jCFq_BfRpd61hvcY8XEe1LA2XotQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Buscamos profesionales que cuenten con experiencia mínima de 2 años realizando tareas de gestión proyectos en entornos PHP, Java, J2EE y Python.',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Más de 20.000€',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '7da59fc3a041368917870df707cbb8',
+    'title': 'Devops/Arquitecto de sistemas Senior',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Las Rozas De Madrid',
+    'link': 'https://www.infojobs.net/las-rozas-de-madrid/devops-arquitecto-sistemas-senior/of-i7da59fc3a041368917870df707cbb8',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3107,
+      'value': 'Arquitectura'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T19:07:55.000Z',
+    'updated': '2020-09-17T19:07:55.000Z',
+    'author': {
+      'id': '966756524526202650333215455375',
+      'name': 'Cibernos',
+      'uri': 'https://cibernos.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/70/7059e73e-4162-432e-b26b-c672c5901c84?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTI1MDMsImV4cCI6MTczMDc5NDkwMywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzcwLzcwNTllNzNlLTQxNjItNDMyZS1iMjZiLWM2NzJjNTkwMWM4NCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.goC_CIp8k0hP2g2sAGOfK-oQaQb1MDS6g-JKWo28pmxE_ksVRKaYmfvC31xsMmXnyOjgybHci-W-xKRbkdwqEbcEe6Ko-b3_L2vjwna2h5saM2A33LkDBkRMKqHh9M5bB5BAYqZbQp_LLXeN7F_Li7U_Kf-9p9bkg61KjLF-6iyfxNBlqfzzbCVge4zHnFMUaOYJJdtMSqlXqQenrtR9gsYQuycfuqRQpKF_yGXKVDhU39Y9gUOvquI2HgeVpDIx1yn-vGudzsgpSbqGKxevBWUeYFj30aSEDfLDZxTHPHPhpQwGLOf58L2FDIe6V0s2upOk65acKftomoqzvXDyjQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '1. Experiencia montando arquitecturas docker y kubernetes (desde cero)\n2. Experiencia en AWS y su administración*\n3. Experiencia administrando sistemas tanto en desarrollo como en entornos de producción junto con los certificados que correspondan.\n4. Experiencia en scripting\n5. Experiencia con python\n6. Experiencia con jenkins y ansible (o herramientas de administración similares)\nValorable\n1. Conocimiento en Azure y GCP (Google Cloud Platform)',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'd909ec04404107962350ee870883f0',
+    'title': 'Desarrollador fullstack',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/desarrollador-fullstack/of-id909ec04404107962350ee870883f0',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 280,
+      'value': '30.000 €'
+    },
+    'salaryMax': {
+      'id': 960,
+      'value': '40.000 €'
+    },
+    'salaryPeriod': {
+      'id': 3,
+      'value': 'Bruto/año'
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 30,
+      'value': 'Formación Profesional Grado Medio'
+    },
+    'published': '2020-09-17T16:12:13.000Z',
+    'updated': '2020-09-17T16:12:13.000Z',
+    'author': {
+      'id': '98565354555954835084329009104245705052',
+      'name': 'S2T soluciones de tecnología y telecomunicaciones',
+      'uri': 'https://www.infojobs.net/s2t-soluciones-de-tecnologia-y-telecomunicaciones/em-i98565354555954835084329009104245705052',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/93/931215b3-264a-46d2-8548-4eadf56ce1e4?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTI5OTgsImV4cCI6MTczMDc5NTM5OCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzkzLzkzMTIxNWIzLTI2NGEtNDZkMi04NTQ4LTRlYWRmNTZjZTFlNCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.Qg5MCEiv-jZSZNSKrEtLd-YcXOgL6H6rcFjZy9ZvYSTZgv7j8zOXmuPACuCxc4lJXfoUTmUKzWNixq0Kr0JsqVAjzcDsvj4Mc2unAgRyFyNZqhii2zKnAGjNbN1XFOzr-j2eMt8RrcpKQVG8LMuiUJTksCqJpYMZCgrLfgFSbaQYRIgWOQfbXBn0Z6XM7bDPatLh8_ir4NC6jl0FxV1ADSQjcrSCHKB1Pw7ansT9Ur6KfZ1QABqZGAbS0UjhBTXCn68wWuK_OirT3OPwyZHuMo-H1wNUEmCH9tQYPpoo6tBNgF7rgKAyQx4sEan16br6z3WGulrmm25IPmtgQKmGkw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Alguna de las siguientes tecnologías:\n- PHP\n- JavaScript (Node, Vue)\n- Python\n- MySQL\n- PostgreSQL\n- Docker (Kubernetes)',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': '30.000€ - 40.000€ Bruto/año',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'a8cea6071f45959639378189cb6745',
+    'title': 'Analista Cloud',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-cloud/of-ia8cea6071f45959639378189cb6745',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3106,
+      'value': 'Análisis'
+    },
+    'salaryMin': {
+      'id': 960,
+      'value': '40.000 €'
+    },
+    'salaryMax': {
+      'id': 300,
+      'value': '42.000 €'
+    },
+    'salaryPeriod': {
+      'id': 3,
+      'value': 'Bruto/año'
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T15:29:02.000Z',
+    'updated': '2020-09-17T15:29:02.000Z',
+    'author': {
+      'id': '66565149515057676583327006194374500805',
+      'name': 'CAS',
+      'uri': 'https://cas-training.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/6f/6f004df1-74ee-41a9-b1bb-43e528010a53?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1ODEyMzAsImV4cCI6MTcxMzg4NzIzMCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzZmLzZmMDA0ZGYxLTc0ZWUtNDFhOS1iMWJiLTQzZTUyODAxMGE1MyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.hPB_cbJ5mIqJh2rs3YL5yfWjGuqgHaI1UYdSN4HDJmCZ7R23MC988RlNGcCysMGU8teLrQx0ejHJ1NSi1GpFtJm2yZYfxAH3wPt-elgQqXCvBTumkFPkG0im8ozWU6zlO7kEg9sL3k90d59YPuw580g0LpT5H9mTzuG1e0SHOvkXiw1cGT7naBypyNfsmHeHTTCEQiSxWK94eV0luSI896Q-1cwfjJK4wYKCYSCyY3g9Otm-rw5hf_qD2_cxRqLWelL92Gwl7spgOM6mgF48udely3PraX9JRIZfr_QRqiVzaSMn4LjC4sRio6guNex92mv_oImNQLaNRPB1ZxqFpQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Funciones: Análisis, desarrollo y pruebas de aplicaciones cloud dentro de un squad multidisciplicar\n\nTecnologías obligatorias: Phyton, Scala, Java on Spark, Databricks\n\nTecnologías deseables: Datalake, Datawarehouse, Blob Storage, CosmosDB / MongoDB. Microsoft Azure / PaaS services. Continuous integration tools knowledge required: Azure Devops, Jenkins, GitLab, or similar\n\nTiempo de experiencia: 2 años de experiencia en IT Projects\n\nPosibilidad de Trabajo en Remoto',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 32,
+    'executive': False,
+    'salaryDescription': '40.000€ - 42.000€ Bruto/año',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'e324449e4a46a18847c2927e397a70',
+    'title': 'Senior QA Automation (Selenium)',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/senior-qa-automation-selenium/of-ie324449e4a46a18847c2927e397a70',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3108,
+      'value': 'Calidad'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 55,
+      'value': 'Formación Profesional Grado Superior'
+    },
+    'published': '2020-09-17T15:11:41.000Z',
+    'updated': '2020-09-17T15:11:41.000Z',
+    'author': {
+      'id': '961153524526522702930125154249',
+      'name': 'Sogeti España',
+      'uri': 'https://sogeti.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/2d/2d9b3283-46b8-4df9-bb8f-a1cb3f7dc00e?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MzY3NDg5MDUsImV4cCI6MTcyNjA1NDkwNSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzJkLzJkOWIzMjgzLTQ2YjgtNGRmOS1iYjhmLWExY2IzZjdkYzAwZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.MTxGLc_JLigmDvUtF2zg_AAjlCfZdcco5zT0ZDD7bxrXMU-R5vTHYOUqer5m28qEx4r6NkYuhc1n3Lv352Bt5GiUJ6ceOZmGsu6TsoyPPUiBdWIczeYcoGd8zEuLA58ZB0zPSigke6qvrmoOuF_Qvx6duT8zvyF_wi-zKd0cNkcLt9K3MjKqJpGFs8-Njp-oCnLbltmAPu60w7KwjvcOQUixPbOHEW2hdaOHQF84qPG9JyE3pP6fN3-eIsnSDrbbRs3zHh8qNTT6dD25A6AOuczOOTy7itzhVCP7w_VbLa7ydwagPjipvxgFwaGcjHq4lGaL-A88DDWsh-wcoojXkw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Los requisitos para esta vacante son:\n- Estudios de Grado, Ingeniería técnica o superior en Informática o Telecomunicaciones.\n- Al menos 2 años de experiencia en Testing.\n- Experiencia con herramientas en Automation tools: Selenium Webdriver, Appium, UFT. \n Conocimientos de metodologías Agile y BDD: Cucumber y Gherkin. \n- Proactividad y ganas de aprender.   \n\nSe valorarán: \n- Conocimientos de APIs: Postman, SoapUI.  \n- Conocimientos de lenguajes de programación: Java y/o Python. -',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'cf722132e9472fa67ce04d6db4fee9',
+    'title': 'Cloud Architect',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/cloud-architect/of-icf722132e9472fa67ce04d6db4fee9',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3107,
+      'value': 'Arquitectura'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 1,
+      'value': 'No Requerida'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T15:04:30.000Z',
+    'updated': '2020-09-17T15:04:30.000Z',
+    'author': {
+      'id': '98545351565653651081161010024869510995',
+      'name': 'Altostratus Solutions, S.L.',
+      'uri': 'https://www.infojobs.net/altostratus-solutions-s.l./em-i98545351565653651081161010024869510995',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Experiencia en Microservicios, Java, Spring Boot, Spring Cloud, Docker, Kubernetes y herramientas de CI/CD\n- Uso extensivo de control de versiones de software (GitHub, GitLab, Bitbucket)\n- Conocimientos de Linux y redes\n- Programación en Java, Python, preferible\n\nSe ofrece:\n- Incorporación inmediata \n- Formación continua a cargo de la empresa\n- Contrato indefinido\n- Jornada completa (L-J 9:00 a 18:00 y V 8:00 a 14:00)\n- Todo el material necesario para el correspondiente desarrollo de la actividad',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '714e2983df4d209bcf765413910fb3',
+    'title': 'Software Engineer - Javascript',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/software-engineer-javascript/of-i714e2983df4d209bcf765413910fb3',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-09-17T14:40:15.000Z',
+    'updated': '2020-09-17T14:40:15.000Z',
+    'author': {
+      'id': '98565452575456667311010012304920215112',
+      'name': 'binternational',
+      'uri': 'https://www.infojobs.net/binternational/em-i98565452575456667311010012304920215112',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/13/13aaacc0-9633-4508-abab-23e708e6c798?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1NjEzNjQsImV4cCI6MTcxMzg2NzM2NCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzEzLzEzYWFhY2MwLTk2MzMtNDUwOC1hYmFiLTIzZTcwOGU2Yzc5OCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.dAKyK7rCv-eIoWMs5aQLHQ4UelcdqHuKf8sbYlbfB-6dHONj6sV1wuavPMarFUivZU9H6yIWjjCIfFS_ZMEUhHOevKcnEKrLp1xAzOWxc5xHLAvO81SQ1Pfsh3FSz-xUI1frYy8bwUmyPiewN81ISTMDFby2MEZwD4sp3uZ7tLUoUx99hJR9nkvWjQLIs9Ua2kp6twEzzEEjQjI2OkhCkKMHWOYBaBlygpSXjDDSj78BZxkFTI5Js8G41CTr2B0onDNOPwXsHdhyRirA1KSPIc7Ugo_lIyHcdAfZ_gpuB0KkTsXiejrRBh4XwU6Buw5ot_IFuwp9fNUOhHzwHHRLRQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Dominio elevado de Javascript.\n\n- Dominio de diversos lenguajes de programación (Lisp, C/C++, Ruby o Python).\n\n- Valorable experiencia con base de datos NoSQL (mongodb, redis o similares).',
+    'bold': False,
+    'applications': '11',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '1bd1974d954055a7461d9bac120905',
+    'title': 'Ingeniero junior de Validación y Verificación de SW',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Tres Cantos',
+    'link': 'https://www.infojobs.net/tres-cantos/ingeniero-junior-validacion-verificacion-sw/of-i1bd1974d954055a7461d9bac120905',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 2,
+      'value': 'Al menos 1 año'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 130,
+      'value': 'Ingeniería Superior'
+    },
+    'published': '2020-08-13T11:37:53.000Z',
+    'updated': '2020-09-17T14:00:01.000Z',
+    'author': {
+      'id': '963153524526202450133215455146',
+      'name': 'GMV',
+      'uri': 'https://grupogmv.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/38/38f4035a-006c-46ba-b1a1-c3ed6a0796b6?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDExNjE3MzcsImV4cCI6MTczMDQ2NDEzNywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzM4LzM4ZjQwMzVhLTAwNmMtNDZiYS1iMWExLWMzZWQ2YTA3OTZiNiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.Pf6clvy1WRbQvmiDqRcj0YCF3Vnor0-8-HH6CnuGXEGyAFOWF6U3kvOmHs8p-QN7awqPn_YciqYMmOxH5nXB5ywrlyog2R0hLJwdgiDfMdSnFseJO7KWR5IN2D9fMz4KSOoUXzMZc62Ahqj31CyFMu2KNT2oCWT63D4HZHXG4RapjwqTJ7lcjdamOoRfiJOZ6EAe_ue9XBbMDJ37nj5yZV8H37LKVh2YqEKbBNykKfLQnD519zSV6U43V_7sBuiuWe7_BFWsIBfKG7evLY5lpSPnMiVPjK6Zpg3cXCXsZK6ByotMOsWW-gXbEdnI4_Tq6vvqES3uuPE8LCLz6ThwUQ&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Pruebas unitarias / pruebas automáticas / scripting (por ejemplo, Python, bash)\nPruebas de SW: especificación, desarrollo y ejecución de pruebas\nCloud / Docker y tecnologías relacionadas\nIntegración continua (jenkins o similar) / Desarrollo continuo / gestión de configuración (SVN / GIT ..)\nHerramientas de prueba (Testlink)\nSe valorará conocimiento en:\nUNIX / LINUX con máquinas virtuales\nPreparación de documentación\nServicios web / API REST\nOtras herramientas (Jira, Nexus, Gitlab)\nMetodología Ágil',
+    'bold': False,
+    'applications': '106',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '5fbd686b8c4521abc48cf69da452e3',
+    'title': 'Analista CLOUD',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-cloud/of-i5fbd686b8c4521abc48cf69da452e3',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 35,
+      'value': 'Ciclo Formativo Grado Medio'
+    },
+    'published': '2020-09-02T12:03:44.000Z',
+    'updated': '2020-09-17T13:00:01.000Z',
+    'author': {
+      'id': '98565356525551768567659014055281008495',
+      'name': 'Luca TIC',
+      'uri': 'https://luca-tic.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/f6/f6b9dd93-5f41-44c1-b638-b7b7022a033c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTcyMjkxMjQsImV4cCI6MTcxNDk5OTEyNCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2Y2L2Y2YjlkZDkzLTVmNDEtNDRjMS1iNjM4LWI3YjcwMjJhMDMzYyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.TiP9KhBmp-sGj48gVhYIZzfq2VfecGF_tRgnuJPN4zIyb3s_oNMHO7kW_g4awAxy1_r_ooHXB8bAO-ArJYJXVgCDexSuZoQKhAJGkSUvpasL0WGWcLSdxH3cqjRQ_fXMCaiNjZOsaSCucWbBpviSEZNVSg7TRa7ciMI6WZvAFrPEILEhSm8CcE9SFuYWaw9xA3ng1-eYbVFyZfk_HsbxCqCh515xcowr5BRpsjSwj1UTkVI5LBuH9CUTr2C1pFcy4OcJjLtao41i2FU2Xrpp6Rmp_1VVPfOdUyiHEDYaytpTprF_37DjH3pjtAXd9Tv9VrxK0q8UZ6ku11Qul6Cv3A&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Al menos 2 años de experiencia en IT Projects.\n\nTecnologías Obligatorias:\n- Python\n- Scala\n- Java on Spark\n- Databricks\n\nTecnologías Deseables:\n- Datalake\n- Datawarehouse\n- Blob Storage\n- CosmosDB / MongoDB\n- Microsoft Azure / PaaS services\n\nHerramientas de integración continua requeridas:\nAzure Devops, Jenkins, GitLab o similar.',
+    'bold': False,
+    'applications': '9',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '91d5edc5c6407cb31b7b050dda2039',
+    'title': 'Ingeniero/a Firmware FPGA // VDHL',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/ingeniero-firmware-fpga-vdhl/of-i91d5edc5c6407cb31b7b050dda2039',
+    'category': {
+      'id': 80,
+      'value': 'Ingenieros y técnicos'
+    },
+    'contractType': {
+      'id': 5,
+      'value': 'Otros contratos'
+    },
+    'subcategory': {
+      'id': 3055,
+      'value': 'Otras ingenierías'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T12:00:33.000Z',
+    'updated': '2020-09-17T12:00:33.000Z',
+    'author': {
+      'id': '65484949525757656982782008076940909937',
+      'name': 'ARGHOS SERVICIOS DE INGENIERIA',
+      'uri': 'https://arghos.trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/84/84754eac-c60b-4796-8509-171529ce5d6c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTcwNDIsImV4cCI6MTczMDc5OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzg0Lzg0NzU0ZWFjLWM2MGItNDc5Ni04NTA5LTE3MTUyOWNlNWQ2YyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.eWV2JMBKYb9LjrdoMVYY-hyJx-GB88AuOKAzzpO3w5FY68n5b6r1E0BD0PMhvLOevTBVehH4BfWK7qznFqDnAuDrjXl9ij7ESzmEBGI1va2yCeGBPJCKTcPxdvFZ55jA6SasiinjQfIhGLcTmhUOzZyyjxwxYqoKrf6DaQnXHV22LgC430fEpynGuMqmUVpIWblfHDm2CMHZl7S50DWyrTKD2x2_7cNgaJjr7nP0CkIT0-a_BtoQE0nTtpRG4PSGrDUKG6C_SY9MYLno7RgE2MEND1qTF0aUclSsEBX5aHXTGIfa87UrQUhDapOPCVh96pnr2Alo8_AvbmKPzlh0Uw&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': True
+    },
+    'requirementMin': '',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '9b48b310404b7eaf0d090d78ed3eef',
+    'title': 'Senior System Engineer Linux/Unix.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/senior-system-engineer-linux-unix./of-i9b48b310404b7eaf0d090d78ed3eef',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3113,
+      'value': 'Sistemas'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 60,
+      'value': 'Ciclo Formativo Grado Superior'
+    },
+    'published': '2020-07-30T08:35:21.000Z',
+    'updated': '2020-09-17T12:00:01.000Z',
+    'author': {
+      'id': '605537114336656420748104835411',
+      'name': 'Blue Telecom Consulting',
+      'uri': 'https://www.infojobs.net/blue-telecom-consulting/em-i605537114336656420748104835411',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/b3/b3841b89-e246-4022-9eb3-327ceeca8891?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTU3MzUsImV4cCI6MTczMDc5ODEzNSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2IzL2IzODQxYjg5LWUyNDYtNDAyMi05ZWIzLTMyN2NlZWNhODg5MSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.T-C2EO24QpqU_-_wkEkOAwTQIQeIgD8UtcEhxBKcud-5tlfLlPBy9XN-GQjKjKfpd1-MFP23Ux8jn6tqABUQRm6gMz8VNc3n8ZY0IY2LmqzUK4LISXYCwoW4r62LX3io9HLcZi85Y6vISbw3TVXlKe6TDT3kDsgkRv8xacF-LwrGZeSV45Pou6UL1vGz5mRKOAOMd2uJdPY9qF6ipBHJG3TO1tpVl2dnA7zuMDLemOHzwlTCXznmb5VMXWNyHZbYeGzNdhAZPh0zrqmMHcg9E1a04Nlixsgcxpy9FOOxzq39N2rfJgRfDbQ0yiZj9HOuEZk04hUUNGjHhClQyYFteg&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Good knowledge of operating systems: Unix, Linux, Windows\n\nGood knowledge of Python\n\nDemonstrated experience with Ansible\n\nGood knowledge of OpenStack\n\nFluency in English both spoken and written',
+    'bold': False,
+    'applications': '4',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '49e7d99f904c9b986acc19790ae95d',
+    'title': 'Consultor SQL_Python_Airflow_procesos ETL con Python_Proyecto USA/ EE. UU_Remote.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/consultor-sql_python_airflow_procesos-etl-con-python_proyecto-usa-ee.-uu_remote./of-i49e7d99f904c9b986acc19790ae95d',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3109,
+      'value': 'ERP, CRM, Business Intelligence'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T11:26:52.000Z',
+    'updated': '2020-09-17T11:26:52.000Z',
+    'author': {
+      'id': '969049524526202250723215255987',
+      'name': 'NEORIS',
+      'uri': 'https://neoris.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d3/d3129a8d-b4b2-4e7a-a743-2f1062fcc94b?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1OTI5MDk4NDIsImV4cCI6MTYyNDQ0OTQ0MiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2QzL2QzMTI5YThkLWI0YjItNGU3YS1hNzQzLTJmMTA2MmZjYzk0YiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.ZW34pF5sZ57jpdhKD_mTwjloFm1rRCTHkn65yhWbZENHKSs7GO7EwCfcKYXYtmxLGqqmch9NYk4HgokjjQZlWWJbrZvJSjOczSTu31wzrucLFEUczKC4lS9YuBzDk4T9cIMrTEUWCE_wbEGmWf9hrfBuobu7IayDAg_myaAd2-mIJg86kuqtk5qii95Cng1Q5uZsPJBQh2w9u9CTd24SjPu4VJT3_bvKdtfx5vzq8W6L2SNKPLlOPfkWO9q5-c5pWiK9I9n_s9kFLtTr6wNx6PyFNt5wEzcwhC13_gdS3wVIJBNog_ZMZGYhz-znaxMPR1rst8YyAkq8HGn7ikr4PA&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': True,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': '-Alto nivel de inglés\n\n- Alto nivel en lenguaje SQL\n\n- Nivel avanzado de Python\n\n- Experiencia en procesos ETL con Python (manejo de datasets, dataframes, realización de transformaciones join, agg, ... con datasets/dataframes)\n\n- Muy valorable, conocimientos de Airflow',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': '3da4bfd5384aef961f54f382f18627',
+    'title': 'Analista Programador Senior Java Javascript con JIRA Banca',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/analista-programador-senior-java-javascript-con-jira-banca/of-i3da4bfd5384aef961f54f382f18627',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 120,
+      'value': 'Ingeniería Técnica'
+    },
+    'published': '2020-09-17T11:16:09.000Z',
+    'updated': '2020-09-17T11:16:09.000Z',
+    'author': {
+      'id': '98565449485655831011101011124334308863',
+      'name': 'Sensu de Servicios y Desarrollos, S.L.',
+      'uri': 'https://sensusd.ofertas-trabajo.infojobs.net',
+      'logoUrl': 'https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/a5/a5c388e3-cd49-47b1-afec-9f302f114881?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTU3NDYsImV4cCI6MTczMDc5ODE0NiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2E1L2E1YzM4OGUzLWNkNDktNDdiMS1hZmVjLTlmMzAyZjExNDg4MSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.DjIYnIosMX36HzFxviRk90CHwcYK6Dno8K8N-t6rVrbVaLt9dn2hES32aCWYrVtWdHpABkTnReNgKIcMWM8E0GMzEH2kQnySScb2nyLdY9lpCjv2hadYFhHRO_vZdsJPeY8RNPkO-1rxb3NTQ-wI7mI37Y2-Ay3CYEg0leynNae1viBT1JxI_HjXHcqhoGFgiId2FYLpte3hmaCMS5VHF0AZITnvJWtYYFQJsTacBuGnKxT71PJkVl9dEmY9kThXqos_iC8nVnmVyzFoinkttzNMzzrldwEhkxRg_JYa_---QhP3aPgzVCowJCS34qa5mhfx4lLDZBsrVdvbdouIXg&AccessKeyId=d724d9a53d95a810',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Java\nJavascript\nJira',
+    'bold': False,
+    'applications': '0',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'e2c0ce8f6e47d79f0639fe17d8c918',
+    'title': 'Programador Jr.',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Fuenlabrada',
+    'link': 'https://www.infojobs.net/fuenlabrada/programador-jr./of-ie2c0ce8f6e47d79f0639fe17d8c918',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 4,
+      'value': 'A tiempo parcial'
+    },
+    'subcategory': {
+      'id': 3124,
+      'value': 'Programación'
+    },
+    'salaryMin': {
+      'id': 126,
+      'value': '450 €'
+    },
+    'salaryMax': {
+      'id': 130,
+      'value': '600 €'
+    },
+    'salaryPeriod': {
+      'id': 2,
+      'value': 'Bruto/mes'
+    },
+    'experienceMin': {
+      'id': 6,
+      'value': 'Al menos 2 años'
+    },
+    'workDay': {
+      'id': 2,
+      'value': 'Parcial - Mañana'
+    },
+    'study': {
+      'id': 170,
+      'value': 'Otros cursos y formación no reglada'
+    },
+    'published': '2020-08-13T08:57:39.000Z',
+    'updated': '2020-09-17T11:00:02.000Z',
+    'author': {
+      'id': '98555456505154656769838020133430406993',
+      'name': 'ACESPACK INVESTMENT SL.',
+      'uri': 'https://www.infojobs.net/acespack-investment-sl./em-i98555456505154656769838020133430406993',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Importante experiencia en PHP',
+    'bold': False,
+    'applications': '243',
+    'subSegment': 23,
+    'executive': False,
+    'salaryDescription': '450€ - 600€ Bruto/mes',
+    'urgent': False,
+    'color': False
+  }, {
+    'id': 'c18f58413b4a6cb095d706bd836dc7',
+    'title': 'DATA SCIENTIST',
+    'province': {
+      'id': 33,
+      'value': 'Madrid'
+    },
+    'city': 'Madrid',
+    'link': 'https://www.infojobs.net/madrid/data-scientist/of-ic18f58413b4a6cb095d706bd836dc7',
+    'category': {
+      'id': 150,
+      'value': 'Informática y telecomunicaciones'
+    },
+    'contractType': {
+      'id': 1,
+      'value': 'Indefinido'
+    },
+    'subcategory': {
+      'id': 3105,
+      'value': 'Administración de bases de datos'
+    },
+    'salaryMin': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryMax': {
+      'id': 0,
+      'value': ''
+    },
+    'salaryPeriod': {
+      'id': 0,
+      'value': ''
+    },
+    'experienceMin': {
+      'id': 3,
+      'value': 'Al menos 3 años'
+    },
+    'workDay': {
+      'id': 1,
+      'value': 'Completa'
+    },
+    'study': {
+      'id': 130,
+      'value': 'Ingeniería Superior'
+    },
+    'published': '2020-09-10T10:52:10.000Z',
+    'updated': '2020-09-17T11:00:02.000Z',
+    'author': {
+      'id': '98565552565355848285839020104474403522',
+      'name': 'TRUSTSURVEY SL.',
+      'uri': 'https://www.infojobs.net/trustsurvey-sl./em-i98565552565355848285839020104474403522',
+      'corporateResponsive': False,
+      'showCorporativeHeader': False
+    },
+    'requirementMin': 'Licenciado o Ingeniero en IT o similar \n3 años de experiencia en desarrollo de Python\nExperiencia en análisis de datos avanzados \nExperiencia en stack ML: Tensorflow, Sklearn, MLflow, Airflow\nExperiencia en BBDD: MySQL, Postgre, DynamoDB\nExperiencia con AWS o/y Azure \nGran capacidad de organización y gestión',
+    'bold': False,
+    'applications': '30',
+    'subSegment': 22,
+    'executive': False,
+    'salaryDescription': 'Salario no disponible',
+    'urgent': False,
+    'color': False
+  }]
+}
