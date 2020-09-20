@@ -1,3 +1,4 @@
+import re
 import json
 from json import JSONDecodeError
 from datetime import datetime
@@ -58,6 +59,16 @@ class InfojobsCrawler(BaseCrawler):
 		self.positions = response.get("items")
 		self.retrieve_paginated_positions()
 
+	@staticmethod
+	def manual_parse_json(text):
+		empty_reqs = re.sub(r'"requirementMin": ".*"', '"requirementMin": ""', text)
+		empty_new_lines = re.sub(r'\n', '', re.sub(r'  ', '', empty_reqs))
+
+		conflicting_fragments = ["hash maps", "data analysis", "data wrangling"]
+		for fragment in conflicting_fragments:
+			empty_new_lines = empty_new_lines.replace(f'"{fragment}"', fragment)
+		return empty_new_lines
+
 	def retrieve_paginated_positions(self):
 		# Obtain only two more pages
 		for index in range(2, 5):
@@ -69,7 +80,12 @@ class InfojobsCrawler(BaseCrawler):
 			api_inputbox.send_keys(f"{inputbox_text.split('&page')[0]}&page={current_page}")
 			self.submit_search()
 			self.wait_implicit_time(2)
-			response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
+			try:
+				response = json.loads(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\""), strict=False)
+			except json.JSONDecodeError as exc:
+				# Manually parse json
+				response = json.loads(
+					self.manual_parse_json(self.get_by_id(id="formattedBody").text.replace(")\"\"", ")\"")), strict=False)
 			self.positions = [*response.get("items"), *self.positions]
 
 		for position in self.positions:
